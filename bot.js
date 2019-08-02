@@ -7,13 +7,6 @@ client.on('ready', () => {
 
 });
 
-// SAMPLE CODE
-// client.on('message', msg => {
-//    if (msg.content === 'gr.esta') {
-//    	msg.reply('my gun says:');
-//  	}
-// });
-
 //SSR HEROES
 
 //Aglaea
