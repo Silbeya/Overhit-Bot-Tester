@@ -304,7 +304,24 @@ client.on('message', msg => {
   	}
 });
 
+//Gleck
+client.on('message', msg => {
+    if (msg.content === 'gr.gleck') {
+    	msg.reply('my gun says: \n **Gleck** \n \n Grimoire: \n **Dark Phalanx** [Healing]: Heal Self HP for 33.7% of ATK when Active Skills are triggered.[Buff]: When hit, Reflect 8.2% of damage taken by Self back at the enemy. (Success Rate: 20%. Duration: 30s.)');
+  	}
+});
 
+client.on('message', msg => {
+    if (msg.content === 'sk.gleck') {
+    	msg.reply('my gun says: \n **Gleck** \n \n **Vanguard Blade - cd 43s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 245% of ATK to Enemy x1. \n :white_small_square:[Debuff]: Decrease Pierce Rate of Enemy x1 by 27.9%. (Duration: 7s.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 361.5% of ATK to Enemy x1. \n :white_small_square:[Debuff]: Decrease Pierce Rate of Enemy x1 by 31.6%. (Duration: 7s.) \n :white_small_square:[Status Effect]: Inflict Blind on Enemy x1 for 20s. (Success Rate: 80%.) \n \n **Grand Punisher - cd 85s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 175.1% of ATK to Enemy x3. \n :white_small_square:[Status Effect]: Inflict Stun on Enemy x3 for 18s. (Success Rate: 30%.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 258.3% of ATK to Enemy x3. \n :white_small_square:[Status Effect]: Inflict Stun on Enemy x3 for 18s. (Success Rate: 50%.) \n :white_small_square:[Buff]: Decrease DMG Taken of Self by 27.7%. (Duration:60s.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.gleck') {
+    	msg.reply('my gun says: \n **Gleck** \n \n **Leader Skill:** \n **Level 1** \n Decrease DMG Taken of allies by 10%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot 
