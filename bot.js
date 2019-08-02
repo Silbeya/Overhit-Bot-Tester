@@ -30,7 +30,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === 'ld.esta') {
-    	msg.reply('my gun says: \n **Level 1** \n Increase ATK of Physical-Type allies by 30% \n \n **Level 2** \n Increase ATK of Physical-Type allies by 50%');
+    	msg.reply('my gun says: \n \n **Level 1** \n Increase ATK of Physical-Type allies by 30% \n \n **Level 2** \n Increase ATK of Physical-Type allies by 50%');
   	}
 });
 
