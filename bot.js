@@ -12,7 +12,7 @@ client.on('ready', () => {
 //Anemone
 client.on('message', msg => {
     if (msg.content === 'gr.anemone') {
-    	msg.reply('my gun says: \n \n Not enough data...need more gunpowder!');
+    	msg.reply('my gun says: \n \n Grimoire: \n **Frontline Jammer** \n [Passive Effect]: Deal additional damage equal to 18.9% of ATK to Magic-Type enemies. \n [Passive Effect]: When HP is 50% or lower, increase ATK of Self by 18.8%. (Success Rate: 100%. Duration 40s.) \n [Buff]: Upon Self KO, increase ATK of Ally x4 by 24.2%. (Success Rate: 100%. Duration: 40s.)');
   	}
 });
 
@@ -33,7 +33,7 @@ client.on('message', msg => {
 //Aglaea
 client.on('message', msg => {
     if (msg.content === 'gr.aglaea') {
-    	msg.reply('my gun says: \n \n **Imperial Bow** \n Grimoire \n **Frostbite** \n [Status Effect]: Inflict Freeze for 18s when Active Skills are triggered. (Success Rate: 10%.)[Passive Effect]: Increase the ATK of allies in the same row by 11,6%');
+    	msg.reply('my gun says: \n \n Grimoire \n **Frostbite** \n [Status Effect]: Inflict Freeze for 18s when Active Skills are triggered. (Success Rate: 10%.)[Passive Effect]: Increase the ATK of allies in the same row by 11,6%');
   	}
 });
 
@@ -53,7 +53,7 @@ client.on('message', msg => {
 //Alex
 client.on('message', msg => {
     if (msg.content === 'gr.alex') {
-    	msg.reply('my gun says: \n \n **Blessed Shield** \n Grimoire: \n **Indomitable Spirit** \n [Buff]: Cast Barrier on Ally x2 that blocks up to 449 + 9.2% of ATK worth of damage when Active Skills is triggered. (Effect applies on Ally x2 with the highest ATK excluding self. Duration: 30s.)[Passive Effect]: Decrease DMG Taken of Self by 8.2%.');
+    	msg.reply('my gun says: \n \n Grimoire: \n **Indomitable Spirit** \n [Buff]: Cast Barrier on Ally x2 that blocks up to 449 + 9.2% of ATK worth of damage when Active Skills is triggered. (Effect applies on Ally x2 with the highest ATK excluding self. Duration: 30s.)[Passive Effect]: Decrease DMG Taken of Self by 8.2%.');
   	}
 });
 
@@ -72,7 +72,7 @@ client.on('message', msg => {
 //Angelo
 client.on('message', msg => {
     if (msg.content === 'gr.angelo') {
-    	msg.reply('my gun says: \n \n Data is updating...need more gunpower!');
+    	msg.reply('my gun says: \n \n Grimoire: \n **Heavy World** \n [Buff]: Upon Ally LO, increase ATK of Self by 18.1%. (Success Rate: 100%. Duration: 40s.) \n [Debuff]: Decrease Block Rate of Hit Target by 7.8% when Active Skills are triggered. (Success Rate: 20%. Duration: 30s.)');
   	}
 });
 
@@ -88,10 +88,29 @@ client.on('message', msg => {
   	}
 });
 
+//Aria
+client.on('message', msg => {
+    if (msg.content === 'gr.aria') {
+    	msg.reply('my gun says: \n \n Grimoire: \n **Soul Release** \n [Buff]: When hit, cast Barrier on Self that blocks up to 368 + 10.7% worth of damage. (Success Rate: 30%. Duration: 30s.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.aria') {
+    	msg.reply('my gun says: \n \n **Quad Slash Impact - cd 82s** \n Level 1: \n :white_small_square:[Regular Damage:] Deal damage equal to 251,7% of ATK to Enemy x1. \n :white_small_square:[Debuff]: Decrease Damage of Enemy x1 by 27,9%. (Success Rate: 50%, Duration 60s.) \n Level 6: \n :white_small_square:[Regular Damage:] Deal damage equal to 371,1% of ATK to Enemy x1. \n :white_small_square:[Debuff]: Decrease Damage of Enemy x1 by 31,6%. (Success Rate: 80%, Duration 60s.) \n :white_small_square:[Additional Damage]: Deal additional damage equal to 7,3% of Max HP to Enemy x1. (Max Damage: 150% of ATK.) \n \n **Cross Impact - cd 92s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 248,4% of ATK to Enemy x1. \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 366,2% of ATK to Enemy x1. \n :white_small_square:[Additional Damage]: Deal additional damage equal to 186,3% of ATK to enemies affected by Chill. \n :white_small_square:[Additional Damage]: Deal fixed damage of 2029 to Enemy x1.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.aria') {
+    	msg.reply('my gun says: \n \n **Leader Skill:** \n **Level 1** \n Increase Max HP of Water allies by 20%. \n \n **Level 2** \n Increase Max HP of Water allies by 30%.');
+  	}
+});
+
 //Esta
 client.on('message', msg => {
     if (msg.content === 'gr.esta') {
-    	msg.reply('my gun says: \n \n ** Happy Sniper** \n Grimoire: \n **Bullet Carnival** \n [Debuff]: Decrease Block Rate of Hit Target by 9,9% when Active Skills are triggered. (Duration: 30s,)[Passive Effect]: increase Crit Rate of Self by 7,6%.');
+    	msg.reply('my gun says: \n \n Grimoire: \n **Bullet Carnival** \n [Debuff]: Decrease Block Rate of Hit Target by 9,9% when Active Skills are triggered. (Duration: 30s,)[Passive Effect]: increase Crit Rate of Self by 7,6%.');
   	}
 });
 
