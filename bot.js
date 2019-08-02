@@ -228,6 +228,63 @@ client.on('message', msg => {
   	}
 });
 
+//Edmund
+client.on('message', msg => {
+    if (msg.content === 'gr.edmund') {
+    	msg.reply('my gun says: \n **Edmund** \n \n Grimoire: \n **Insectoid Wall** \n [Debuff]: Decrease Damage of Hit Target by 17.7% when Active Skills are triggered. (Duration: 40s.)[Additional Damage]: Deal additional fixed damage of 173 to targets affected by Poison when All Attack is triggered.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.edmund') {
+    	msg.reply('my gun says: **Edmund** \n \n **Summon Striges - cd 60s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 177.4% of ATK to Enemy x3. \n :white_small_square:[Debuff]: Decrease Block Rate of Enemy x3 by 11.8%. (Success Rate: 50%, Duration: 40s.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 261.7% of ATK to Enemy x3. \n :white_small_square:[Debuff]: Decrease Block Rate of Enemy x3 by 13.3%. (Success Rate: 100%, Duration: 40s.) \n :white_small_square:[Debuff]: Increase Skill Cooldown of Enemy x3 by 17s. \n \n **Summon Jormungand - cd 75s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 103.1% of ATK to Enemy x5. \n :white_small_square:[Status Effect]: Infict Poison that deals damage equal to 9.2% of ATK every 6s for 30s. (Success Rate: 20%. (Poison): Decrease Status Effect Resist Rate by 20% \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 152.4% of ATK to Enemy x5. \n :white_small_square:[Status Effect]: Infict Poison that deals damage equal to 10.4% of ATK every 6s for 30s. (Success Rate: 50%. (Poison): Decrease Status Effect Resist Rate by 20% \n :white_small_square:[Status Effect]: Inflict Paralyze on Enemy x3 for 20s. (Success Rate: 30%.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.edmund') {
+    	msg.reply('my gun says: **Edmund** \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of Magic-Type Allies by 20%. Increase Block Rate of Magic-Type Allies by 5%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+  	}
+});
+
+//Elphie
+client.on('message', msg => {
+    if (msg.content === 'gr.elphie') {
+    	msg.reply('my gun says: \n **Elphie** \n \n Grimoire: \n **White Owl Protection** \n [Healing]: Heal Ally x1 HP for 39.7% of ATK when Active Skills are triggered (Apply effect on Ally x1 with the lowest HP.).');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.elphie') {
+    	msg.reply('my gun says: **Elphie** \n \n **Asava Singh - cd 63s** \n Level 1: \n :white_small_square:[Healing]: Heal Ally x4 for 107.9% of ATK. (Apply effect on Ally x4 with the lowest HP.) \n :white_small_square:[Buff]: Increase ATK of Ally x4 by 29.7% (Apply effect on Ally x4 with the lowest HP.) \n Level 6: \n :white_small_square:[Healing]: Heal Ally x5 for 140.3% of ATK. (Apply effect on Ally x5 with the lowest HP.) \n :white_small_square:[Buff]: Increase ATK of Ally x5 by 33.6% (Apply effect on Ally x5 with the lowest HP.) \n \n **Kuku Vaya - cd 90s** \n Level 1: \n :white_small_square:[Buff]: Increase Crit Rate of Ally x4 by 21%. (On Allies with the highest ATK, excluding Self. Duration: 60s.) \n :white_small_square:[Buff]: Remove 1 Debuff from Ally x1. (Apply effect on Ally x1 with the highest ATK, excluding self.) \n Level 6: \n :white_small_square:[Buff]: Increase Crit Rate of Ally x4 by 23.7%. (On Allies with the highest ATK, excluding Self. Duration: 60s.) \n :white_small_square:[Buff]: Remove 1 Debuff from Ally x3. (Apply effect on Ally x3 with the highest ATK, excluding self.) \n :white_small_square:[Buff]: Inflict Status Effect Immunity on Ally x3 for 15.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.elphie') {
+    	msg.reply('my gun says: **Elphie** \n \n **Leader Skill:** \n **Level 1** \n Increase Crit DMG of Fire allies by 30%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+  	}
+});
+
+//Emodin
+client.on('message', msg => {
+    if (msg.content === 'gr.emodin') {
+    	msg.reply('my gun says: \n **Emodin** \n \n Grimoire: \n **Cataclysm Fist** \n [Status Effect]: When hit, inflict Chill that deals damage equal to 6.3% of ATK every 4s for 36s. to the attacking target. (Success Rate: 15%.)[Passive Effect]: Decrease DMG Taken of Self by 8.2%.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.emodin') {
+    	msg.reply('my gun says: **Emodin** \n \n **Divine Pillar - cd 63s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 245.9% of ATK to Enemy x1. \n :white_small_square:[Debuff]: Decrease ATK of Enemy x1 by 23.5%. (Success Rate: 100%. Duration: 60s.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 344.3% of ATK to Enemy x1. \n :white_small_square:[Debuff]: Decrease ATK of Enemy x3 by 26.6%. (Success Rate: 100%. Duration: 60s.) \n :white_small_square:[Status Effect]: Inflict Stun on Enemy x1 for 18s. (Success Rate: 100%) \n \n **Vanquishing Blast - cd 90s** \n Level 1: \n :white_small_square:[Buff]: Increase ATK of Ally x5 by 20.9%. (Success Rate: 100%. Duration: 60s.) \n :white_small_square:[Buff]: Cast Barrier on Self that blocks up to 668 + 9.3% of ATK worth of damage. (Success Rate: 100%, Duration: 30s.) \n Level 6: \n :white_small_square:[Buff]: Increase ATK of Ally x5 by 23.7%. (Success Rate: 100%. Duration: 60s.) \n :white_small_square:[Buff]: Cast Barrier on Self that blocks up to 3173 + 20.9% of ATK worth of damage. (Success Rate: 100%, Duration: 30s.) \n :white_small_square:[Buff]: Increase Status Effect Resist Rate of Ally x5 by 27.1% (Success Rate: 100%. Duration: 60s.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.emodin') {
+    	msg.reply('my gun says: **Emodin** \n \n **Leader Skill:** \n **Level 1** \n Increase DEF of allies by 20%. \n \n **Level 2** \n Increase DEF of allies by 40%');
+  	}
+});
+
 //Esta
 client.on('message', msg => {
     if (msg.content === 'gr.esta') {
