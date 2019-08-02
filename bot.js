@@ -65,7 +65,26 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === 'ld.alex') {
-    	msg.reply('my gun says: \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of Light allies by 40%. \n \n **Level 2** \n Increase ATK of Light allies by 40%.');
+    	msg.reply('my gun says: \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of Light allies by 40%. \n \n **Level 2** \n Increase ATK of Light allies by 60%.');
+  	}
+});
+
+//Angelo
+client.on('message', msg => {
+    if (msg.content === 'gr.angelo') {
+    	msg.reply('my gun says: \n \n Data is updating...need more gunpower!');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.angelo') {
+    	msg.reply('my gun says: \n \n **Gravity Slam - cd 54s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 166,7% of ATK to Enemy x4. \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 237,3% of ATK to Enemy x5. \n :white_small_square:[Additional damage]: Deal fixed damage 1838 to Physical-Type. \n \n **Gravitation Singularity - cd 83s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 184,8% of ATK to Enemy x4. \n :white_small_square:[Additional Damage]: Deal additional damage equal to 3,9% of Max HP to Enemy x4. (Max Damage: 150% of ATK.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 245,9% of ATK to Enemy x5. \n :white_small_square:[Additional Damage]: Deal additional damage equal to 4,9% of Max HP to Enemy x5. (Max Damage: 150% of ATK.) \n :white_small_square:[Debuff]: Increase DMG Taken on Enemy x5 by 23,1%. (Duration: 60s.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.angelo') {
+    	msg.reply('my gun says: \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of Dark allies by 40%. \n \n **Level 2** \n Increase ATK of Dark allies by 60%.');
   	}
 });
 
