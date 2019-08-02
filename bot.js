@@ -7,6 +7,12 @@ client.on('ready', () => {
 
 });
 
+client.on('message', msg => {
+    if (msg.content === '.help') {
+    	msg.reply('hi, Esta Bot here to help! \n \n Type **gr.<hero>** for grimoire info, eg. gr.esta \n Type **sk.<hero>** for skill info, eg. sk.esta /n Type **ld.<hero>** for leader skill info, eg. sk.esta \n \n Please note that the commands are strictly all in lowercase letters. \n \n *Esta Bot v1.0 created by Silbeya* \n Sorry for the limitations to the bot due to limited knowledge :< but hope it still helps ^^');
+  	}
+});
+
 //UR HEROES
 
 //Anemone
