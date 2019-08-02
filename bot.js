@@ -24,7 +24,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === 'ld.anemone') {
-    	msg.reply('my gun says: \n \n Leader Skill: \n **Level 1** \n For each type of Hero in your Team, the ATK of your heroes is boosted by 20%. \n \n **Level 2** \n Not enough data...need more gunpowder!');
+    	msg.reply('my gun says: \n \n **Leader Skill:** \n **Level 1** \n For each type of Hero in your Team, the ATK of your heroes is boosted by 20%. \n \n **Level 2** \n Not enough data...need more gunpowder!');
   	}
 });
 
