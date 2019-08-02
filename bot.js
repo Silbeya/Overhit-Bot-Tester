@@ -323,5 +323,46 @@ client.on('message', msg => {
   	}
 });
 
+//Gordon
+client.on('message', msg => {
+    if (msg.content === 'gr.gordon') {
+    	msg.reply('my gun says: \n **Gordon** \n \n Grimoire: \n **Lion Roar** \n [Passive Effect]: Increase DEF of allies in the back row by 16.1%. \n [Passive Effect]: Decrease DMG Taken by allies in own row by 10.9%.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.gordon') {
+    	msg.reply('my gun says: \n **Gordon** \n \n **Massive Earthquake - cd 50s**
+
+Level 1: 
+:white_small_square:[Regular Damage]: Deal damage equal to 176.6% of ATK to Enemy x3.
+:white_small_square:[Buff]: Remove 1 Debuff from self.
+:white_small_square:[Buff]: Increase own DEF by 58.8%. (Success Rate: 100%. Duration: 60s)                 
+
+Level 6: 
+:white_small_square:[Regular Damage]: Deal damage equal to 247.3% of ATK to Enemy x3.
+:white_small_square:[Buff]: Remove 1 Debuff from self.
+:white_small_square:[Buff]: Increase own DEF by 66.4%. (Success Rate: 100%. Duration: 60s)   
+
+Pulverizer - cd 96s
+
+Level 1: 
+:white_small_square:[Regular Damage]: Deal damage equal to 265% of ATK to 1 enemy.
+:white_small_square:[Additional Damage]: Deal damage equal to 77.6% of DEF to 1 enemy.
+:white_small_square:[Status Effect]: Inflict Stun on 1 enemy for 18s (Success Rate: 80%).
+
+Level 6:
+:white_small_square:[Regular Damage]: Deal damage equal to 371% of ATK to 1 enemy.
+:white_small_square:[Additional Damage]: Deal damage equal to 108.7% of DEF to 1 enemy.
+:white_small_square:[Status Effect]: Inflict Stun on 1 enemy for 18s (Success Rate: 80%).');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.gordon') {
+    	msg.reply('my gun says: \n **Gordon** \n \n **Leader Skill:** \n **Level 1** \n If there are 3 or more FIRE type allies, increase DEF of all allies by 30%. Decrease DMG Taken of allies by 5%. \n \n **Level 2** \n If there are 3 or more FIRE type allies, increase DEF of all allies by 50%. Decrease DMG Taken of allies by 10%.');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot 
