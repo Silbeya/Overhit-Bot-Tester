@@ -332,29 +332,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === 'sk.gordon') {
-    	msg.reply('my gun says: \n **Gordon** \n \n **Massive Earthquake - cd 50s**
-
-Level 1: 
-:white_small_square:[Regular Damage]: Deal damage equal to 176.6% of ATK to Enemy x3.
-:white_small_square:[Buff]: Remove 1 Debuff from self.
-:white_small_square:[Buff]: Increase own DEF by 58.8%. (Success Rate: 100%. Duration: 60s)                 
-
-Level 6: 
-:white_small_square:[Regular Damage]: Deal damage equal to 247.3% of ATK to Enemy x3.
-:white_small_square:[Buff]: Remove 1 Debuff from self.
-:white_small_square:[Buff]: Increase own DEF by 66.4%. (Success Rate: 100%. Duration: 60s)   
-
-Pulverizer - cd 96s
-
-Level 1: 
-:white_small_square:[Regular Damage]: Deal damage equal to 265% of ATK to 1 enemy.
-:white_small_square:[Additional Damage]: Deal damage equal to 77.6% of DEF to 1 enemy.
-:white_small_square:[Status Effect]: Inflict Stun on 1 enemy for 18s (Success Rate: 80%).
-
-Level 6:
-:white_small_square:[Regular Damage]: Deal damage equal to 371% of ATK to 1 enemy.
-:white_small_square:[Additional Damage]: Deal damage equal to 108.7% of DEF to 1 enemy.
-:white_small_square:[Status Effect]: Inflict Stun on 1 enemy for 18s (Success Rate: 80%).');
+    	msg.reply('my gun says: \n **Gordon** \n \n **Massive Earthquake - cd 50s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 176.6% of ATK to Enemy x3. \n :white_small_square:[Buff]: Remove 1 Debuff from self. \n :white_small_square:[Buff]: Increase own DEF by 58.8%. (Success Rate: 100%. Duration: 60s) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 247.3% of ATK to Enemy x3. \n :white_small_square:[Buff]: Remove 1 Debuff from self. \n :white_small_square:[Buff]: Increase own DEF by 66.4%. (Success Rate: 100%. Duration: 60s) \n \n **Pulverizer - cd 96s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 265% of ATK to 1 enemy. \n :white_small_square:[Additional Damage]: Deal damage equal to 77.6% of DEF to 1 enemy. \n :white_small_square:[Status Effect]: Inflict Stun on 1 enemy for 18s (Success Rate: 80%). \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 371% of ATK to 1 enemy. \n :white_small_square:[Additional Damage]: Deal damage equal to 108.7% of DEF to 1 enemy. \n :white_small_square:[Status Effect]: Inflict Stun on 1 enemy for 18s (Success Rate: 80%).');
   	}
 });
 
