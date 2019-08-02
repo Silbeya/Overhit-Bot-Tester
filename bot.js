@@ -7,6 +7,7 @@ client.on('ready', () => {
 
 });
 
+//COMMANDS
 client.on('message', msg => {
     if (msg.content === '.help') {
     	msg.reply('hi, Esta Bot is here to help! \n \n Type **gr.<hero>** for grimoire info, eg. gr.esta \n Type **sk.<hero>** for skill info, eg. sk.esta \n Type **ld.<hero>** for leader skill info, eg. ld.esta \n \n Please note that the commands are strictly **all in lowercase letters**. \n Eg. GR.esta, Gr.Esta etc. **will not work**. Only gr.esta will work. \n \n Only SSR and UR heroes are available. \n Sorry for the limitations to the bot due to limited knowledge :< but hope it still helps ^^ \n \n *Esta Bot v1.0 created by Silbeya 실베야*');
@@ -30,7 +31,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === 'ld.anemone') {
-    	msg.reply('my gun says: \n \n **Leader Skill:** \n **Level 1** \n For each type of Hero in your Team, the ATK of your heroes is boosted by 20%. \n \n **Level 2** \n Not enough data...need more gunpowder!');
+    	msg.reply('my gun says: \n \n **Leader Skill:** \n **Level 1** \n For each type of Hero in your Team, the ATK of your heroes is boosted by 20%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
   	}
 });
 
@@ -51,7 +52,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === 'ld.aglaea') {
-    	msg.reply('my gun says: \n \n Leader Skill: \n **Level 1** \n Increase ATK of Physical-Type Allies by 20%. Increase Crit DMG of Physical-Type Allies by 10%. \n \n **Level 2** \n Not enough data...need more gunpowder!');
+    	msg.reply('my gun says: \n \n Leader Skill: \n **Level 1** \n Increase ATK of Physical-Type Allies by 20%. Increase Crit DMG of Physical-Type Allies by 10%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
   	}
 });
 
@@ -166,7 +167,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === 'ld.beatrice') {
-    	msg.reply('my gun says: \n \n **Leader Skill:** \n **Level 1** \n If there are at least Ally x3 of Wind allies, increase allies ATK by 35%. Increase Crit DMG of allies by 10%. \n \n **Level 2** \n Not enough data...need more gunpowder!');
+    	msg.reply('my gun says: \n \n **Leader Skill:** \n **Level 1** \n If there are at least Ally x3 of Wind allies, increase allies ATK by 35%. Increase Crit DMG of allies by 10%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
   	}
 });
 
