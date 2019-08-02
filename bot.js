@@ -205,7 +205,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === 'ld.colette') {
-    	msg.reply('my gun says: **Colette** \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of Water Allies by 40%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+    	msg.reply('my gun says: **Colette** \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of Water Allies by 40%. \n \n **Level 2** \n Increase ATK of Water Allies by 60%.');
   	}
 });
 
@@ -339,6 +339,44 @@ client.on('message', msg => {
 client.on('message', msg => {
     if (msg.content === 'ld.gordon') {
     	msg.reply('my gun says: \n **Gordon** \n \n **Leader Skill:** \n **Level 1** \n If there are 3 or more FIRE type allies, increase DEF of all allies by 30%. Decrease DMG Taken of allies by 5%. \n \n **Level 2** \n If there are 3 or more FIRE type allies, increase DEF of all allies by 50%. Decrease DMG Taken of allies by 10%.');
+  	}
+});
+
+//Helena
+client.on('message', msg => {
+    if (msg.content === 'gr.helena') {
+    	msg.reply('my gun says: \n **Helena** \n \n Grimoire: \n **Unbreakable** \n [Buff]: Upon Self KO, cast Damage Immunity on Ally x4 one time. (Duration: 32s.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.helena') {
+    	msg.reply('my gun says: \n **Helena** \n \n **Partian Blessing - cd 63s** \n Level 1: \n :white_small_square:[Healing]: Heal Ally x5 for 98.5% of ATK. \n :white_small_square:[Additional Healing]: Additionally Heal Ally x1 for 34.1% of ATK. (Apply effect on Ally x1 with the lowest HP.) \n Level 6: \n :white_small_square:[Healing]: Heal Ally x5 for 128% of ATK. \n :white_small_square:[Additional Healing]: Additionally Heal Ally x3 for 44.4% of ATK. (Apply effect on Ally x3 with the lowest HP.) \n :white_small_square:[Buff]: Apply Damage Immunity effect on Ally x1 1 time. \n \n **Rune Wall - cd 90s** \n Level 1: \n :white_small_square:[Resurrection]: Resurrect Ally x1 with 30% of HP. \n :white_small_square:[Buff]: Cast barrier on Ally x4 that blocks up to 550 + 8.1% of ATK worth of damage. (Duration: 30s.) \n Level 6: \n :white_small_square:[Resurrection]: Resurrect Ally x1 with 50% of HP. \n :white_small_square:[Buff]: Cast barrier on Ally x5 that blocks up to 2612 + 18.1% of ATK worth of damage. (Duration: 30s.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.helena') {
+    	msg.reply('my gun says: \n **Helena** \n \n **Leader Skill:** \n **Level 1** \n Increase ATK by 30% for 3 or more targets. \n \n **Level 2** \n Increase ATK by 50% for 3 or more targets.');
+  	}
+});
+
+//Hien
+client.on('message', msg => {
+    if (msg.content === 'gr.hien') {
+    	msg.reply('my gun says: \n **Hien** \n \n Grimoire: \n **Scarlet Lily Frenzy** \n [Additional Damage]: Deal additional damage equal to 30% of ATK to enemies affected by Burn when All Attack is triggered.[Passive Effect]: Increase Pierce Rate of Self by 6%.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.hien') {
+    	msg.reply('my gun says: \n **Hien** \n \n **Phoenix Wing Strike - cd 73s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 256.5% of ATK to Enemy x1. \n :white_small_square:[Chain Effect]: Deal additional damage eqial to 256.5% of ATK when chain attack is triggered. (Guaranteed critical) \n :white_small_square:[Chain Effect]: If the struck enemy is affected by Burn, inflict Burn to deal damage equal to 22% of ATK every 10s for 20s on Enemy x3. (Success Rate:60%.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 378.4% of ATK to Enemy x1. \n :white_small_square:[Chain Effect]: Deal additional damage eqial to 378.4% of ATK when chain attack is triggered. (Guaranteed critical) \n :white_small_square:[Chain Effect]: If the struck enemy is affected by Burn, inflict Burn to deal damage equal to 24.8% of ATK every 10s for 20s on Enemy x3. (Success Rate:100%.) \n :white_small_square:[Additional Damage]: Deal fixed damage of 1990 to Enemy x1. \n \n **Falcon Claw - cd 95s** \n Level 1: \n:white_small_square:[Regular Damage]: Deal damage equal to 177.9% of ATK to Enemy x3. \n:white_small_square:[Debuff]: Decrease Damage of Enemy x3 by 23.5%. (Success Rate: 30%, Duration: 60s.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 262.5% of ATK to Enemy x3. \n :white_small_square:[Debuff]: Decrease Damage of Enemy x3 by 26.66%. (Success Rate: 60%, Duration: 60s.) \n :white_small_square:[Additional Damage]: Deal additional damage equal to 4.7% of Max HP to Enemy x3 (Max Damage: 150% of ATK)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.hien') {
+    	msg.reply('my gun says: \n **Hien** \n \n **Leader Skill:** \n **Level 1** \n If there are at least 3x Fire allies, increase allies ATK by 35%. Increase Crit Rate of allies by 5%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
   	}
 });
 
