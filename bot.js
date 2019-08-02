@@ -14,8 +14,28 @@ client.on('ready', () => {
 //  	}
 // });
 
-//HEROES
-//ESTA
+//SSR HEROES
+
+//Aglaea
+client.on('message', msg => {
+    if (msg.content === 'gr.aglaea') {
+    	msg.reply('my gun says: \n \n **Frostbite** \n [Status Effect]: Inflict Freeze for 18s when Active Skills are triggered. (Success Rate: 10%.)[Passive Effect]: Increase the ATK of allies in the same row by 11,6%');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.aglaea') {
+    	msg.reply('my gun says: \n \n **White Freeze - cd 78s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 315,9% of ATK to Enemy x3. (Sequentially attack Enemy x3.) \n :white_small_square:[Status Effect]: Inflict Chill that deals damage equal to 4,3% of ATK every 4s for 36s. (Success Rate: 30%.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 466,5% of ATK to Enemy x3. (Sequentially attack Enemy x3.) \n :white_small_square:[Status Effect]: Inflict Chill on Enemy x3 that deals damage equal to 4,8% of ATK every 4s for 36s. (Success Rate: 100%.) \n \n **Gunnar's Comet - cd 105s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 305,5% of ATK to Enemy x1. (Guaranteed critical.) \n :white_small_square:[Additional Damage]: Deal fixed damage of 790 to enemies affected by Chill. \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 427,8% of ATK to Enemy x1. (Guaranteed critical.) \n :white_small_square:[Additional Damage]: Deal fixed damage of 3871 to enemies affected by Chill.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.aglaea') {
+    	msg.reply('my gun says: \n \n **Leader Skill** \n **Level 1** \n Increase ATK of Physical-Type Allies by 20%. Increase Crit DMG of Physical-Type Allies by 10%. \n \n **Level 2** \n Not enough data...need more gunpowder!');
+  	}
+});
+
+//Esta
 client.on('message', msg => {
     if (msg.content === 'gr.esta') {
     	msg.reply('my gun says: \n \n **Bullet Carnival** \n [Debuff]: Decrease Block Rate of Hit Target by 9,9% when Active Skills are triggered. (Duration: 30s,)[Passive Effect]: increase Crit Rate of Self by 7,6%.');
@@ -30,7 +50,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === 'ld.esta') {
-    	msg.reply('my gun says: \n \n **Level 1** \n Increase ATK of Physical-Type allies by 30% \n \n **Level 2** \n Increase ATK of Physical-Type allies by 50%');
+    	msg.reply('my gun says: \n \n **Leader Skill** \n **Level 1** \n Increase ATK of Physical-Type allies by 30% \n \n **Level 2** \n Increase ATK of Physical-Type allies by 50%');
   	}
 });
 
