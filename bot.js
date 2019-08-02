@@ -7,6 +7,27 @@ client.on('ready', () => {
 
 });
 
+//UR HEROES
+
+//Anemone
+client.on('message', msg => {
+    if (msg.content === 'gr.anemone') {
+    	msg.reply('my gun says: \n \n Not enough data...need more gunpowder!');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.anemone') {
+    	msg.reply('my gun says: \n \n **Sky Destructor - cd 83s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 211% of ATK to Enemy x3. \n :white_small_square:[Status Effect]: Inflict Blind on Enemy x3 for 20s. (Success Rate: 50%) \n Level 6: \n :white_small_square:[Regular Damage] : Deal damage equal to 342.5% of ATK to Enemy x4 \n :white_small_square:[Status Effect] : Inflict Blind on Enemy x4 for 20s (Success Rate : 80%.) \n :white_small_square:[Blind] : Decrease Attack Success Rate by 50%. \n \n **Apocalypse Cannon - cd 100s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 158,2% of ATK to Enemy x5. \n :white_small_square:[Chain Effect]: Deal damage equal to 174,1% of ATK to enemies affected by Blind \n Level 6: \n :white_small_square:[Regular Damage] : Deal damage equal to 234.42% of ATK to Enemy x5. \n :white_small_square:[Additional Damage] : Deal fixed damage of 1424 to Enemy x5. \n :white_small_square:[Chain Effect] : Deal damage equal to 242% of ATK to enemies affected by Blind.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.anemone') {
+    	msg.reply('my gun says: \n \n Leader Skill: \n **Level 1** \n For each type of Hero in your Team, the ATK of your heroes is boosted by 20%. \n \n **Level 2** \n Not enough data...need more gunpowder!');
+  	}
+});
+
 //SSR HEROES
 
 //Aglaea
