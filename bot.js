@@ -171,16 +171,73 @@ client.on('message', msg => {
   	}
 });
 
+//Celesta
+client.on('message', msg => {
+    if (msg.content === 'gr.celesta') {
+    	msg.reply('my gun says: \n **Celesta** \n \n Grimoire: \n **Faerie Dance** \n [Buff]: Increase ATK of Wind Ally by 9.1% when All Attack is triggered. (Success Rate: 30%. Duration: 40s.)[Debuff]: Increase Hit Target Skill Cooldown by 8s when Active Skills are triggered.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.celesta') {
+    	msg.reply('my gun says: **Celesta** \n \n **Fatal Impact - cd 42s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 259.2% of ATK to Enemy x1. \n :white_small_square:[Debuff]: Decrease DEF of Enemy x1 by 27.9%. (Duration 60s.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 366,9% of ATK to Enemy x1. \n :white_small_square:[Debuff]: Decrease DEF of Enemy x1 by 31.6%. (Duration 60s.) \n :white_small_square:[Debuff]: Decrease Crit Resist Rate of Enemy x1 by 25.6% (Duration: 60s.) \n \n **Cyclone Shredder - cd 85s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 120% of ATK to Enemy x4. \n :white_small_square:[Status Effect]: Inflict Bleed that deals damage equal to 7.3% of ATK every 5s for 30s. (Success Rate: 40%.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 247.3% of ATK to Enemy x5. \n :white_small_square:[Status Effect]: Inflict Bleed that deals damage equal to 8.2% of ATK every 5s for 30s. (Success Rate: 60%.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.celesta') {
+    	msg.reply('my gun says: **Celesta** \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of Wind allies by 40%. \n \n **Level 2** \n Increase ATK of Wind allies by 60%.');
+  	}
+});
+
+//Colette
+client.on('message', msg => {
+    if (msg.content === 'gr.colette') {
+    	msg.reply('my gun says: \n **Colette** \n \n Grimoire: \n **Winter Haven** \n [Debuff]: Decrease Damage of Hit Target by 17.7% when Active Skills is triggered. (Duration: 40s.)[Additional Damage]: Deal additional damage equal to 20.3% of ATK to enemies affected by cold when Active Skills are triggered.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.colette') {
+    	msg.reply('my gun says: **Colette** \n \n **Hailstorm - cd 80s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 167,4% of ATK to Enemy x3. \n :white_small_square:[Debuff]: Decrease Status Effect Resist Rate of Enemy x3 by 22.9%. (Duration: 60s.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 246,8% of ATK to Enemy x3. \n :white_small_square:[Debuff]: Decrease Status Effect Resist Rate of Enemy x3 by 25,9%. (Duration: 60s.) \n :white_small_square:[Additional Damage]: Deal additional damage equal to 128,9% of ATK to enemies affected by Chill. \n \n **Brinicle - cd 100s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 99.4% of ATK to Enemy x5. \n :white_small_square:[Status Effect]: Inflict Chill that deals damage equal to 2.7% of ATK every 4s for 36s. (Success Rate: 30%.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 146.9% of ATK to Enemy x5. \n :white_small_square:[Status Effect]: Inflict Chill that deals damage equal to 3% of ATK every 4s for 36s. (Success Rate: 50%.) \n :white_small_square:[Status Effect]: Inflict Freeze on Enemy x5 for 18s. (Success Rate: 20%.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.colette') {
+    	msg.reply('my gun says: **Colette** \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of Water Allies by 40%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+  	}
+});
+
+//Demian
+client.on('message', msg => {
+    if (msg.content === 'gr.demian') {
+    	msg.reply('my gun says: \n **Demian** \n \n Grimoire: \n **Blood Infection** \n [Buff]: When hit, cast Blood Sucking on Self that heals 16.6% of damage. (Success Rate: 40%. Duration: 20s.)[Healing]: Upon Self KO, Heal HP of Ally x4 for 90% of ATK.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.demian') {
+    	msg.reply('my gun says: **Demian** \n \n **Vampire Kiss - cd 92s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 215.5% of ATK to Enemy x3. \n :white_small_square:[Healing]: Heal Self for 170.1% of ATK. \n :white_small_square:[Additional Healing]: Additionally heal Ally x1 for 27.2% of Max HP. (Apply effect on Ally x1 with the lowest HP, excluding self.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 301.7% of ATK to Enemy x3. \n :white_small_square:[Healing]: Heal Self for 221.1% of ATK. \n :white_small_square:[Additional Healing]: Additionally heal Ally x3 for 32.1% of Max HP. (Apply effect on Ally x3 with the lowest HP, excluding self.) \n \n **Bloodbath - cd 75s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 176.2% of ATK to Enemy x4. \n :white_small_square:[Status Effect]: Inflict Blind on Enemy x4 for 20s. (Success Rate: 20%.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 246.7% of ATK to Enemy x5. \n :white_small_square:[Status Effect]: Inflict Blind on Enemy x5 for 20s. (Success Rate: 50%.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.demian') {
+    	msg.reply('my gun says: **Demian** \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of allies by 25%. \n \n **Level 2** \n Increase ATK of allies by 45%.');
+  	}
+});
+
 //Esta
 client.on('message', msg => {
     if (msg.content === 'gr.esta') {
-    	msg.reply('my gun says: \n **Esta** \n \n Grimoire: \n **Bullet Carnival** \n [Debuff]: Decrease Block Rate of Hit Target by 9,9% when Active Skills are triggered. (Duration: 30s,)[Passive Effect]: increase Crit Rate of Self by 7,6%.');
+    	msg.reply('my gun says: \n **Esta** \n \n Grimoire: \n **Bullet Carnival** \n [Debuff]: Decrease Block Rate of Hit Target by 9.9% when Active Skills are triggered. (Duration: 30s,)[Passive Effect]: increase Crit Rate of Self by 7.6%.');
   	}
 });
 
 client.on('message', msg => {
     if (msg.content === 'sk.esta') {
-    	msg.reply('my gun says: \n **Esta** \n \n **Scattershot - cd 55s** \n Level 1:\n :white_small_square:[Regular Damage]: Deal damage equal to 169,8% of ATK to Enemy x3 \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 250,3% of ATK to Enemy x3. \n :white_small_square:[Additional Damage]: Deal additional damage equal to 120,3% of ATK to enemies with HP that is 50% or lower. \n :white_small_square:[Buff]: Increase Damage of Self by 27,7%. (Duration: 60s.) \n \n **Incendiary Shot - cd 100s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 177,2% of ATK to Enemy x3. \n :white_small_square:[Additional Damage]: Deal fixed damage of 414 to Enemy x1. \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 261,7% of ATK to Enemy x3. \n :white_small_square:[Additional Damage]: Deal fixed damage of 2027 to Enemy x1. \n :white_small_square:[Status Effect]: Inflict Burn on Enemy x3 dealing DMG equal to 24,2% of ATK every 10s for 20s. (Success Rate: 50%.)');
+    	msg.reply('my gun says: \n **Esta** \n \n **Scattershot - cd 55s** \n Level 1:\n :white_small_square:[Regular Damage]: Deal damage equal to 169,8% of ATK to Enemy x3 \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 250.3% of ATK to Enemy x3. \n :white_small_square:[Additional Damage]: Deal additional damage equal to 120.3% of ATK to enemies with HP that is 50% or lower. \n :white_small_square:[Buff]: Increase Damage of Self by 27.7%. (Duration: 60s.) \n \n **Incendiary Shot - cd 100s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 177.2% of ATK to Enemy x3. \n :white_small_square:[Additional Damage]: Deal fixed damage of 414 to Enemy x1. \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 261.7% of ATK to Enemy x3. \n :white_small_square:[Additional Damage]: Deal fixed damage of 2027 to Enemy x1. \n :white_small_square:[Status Effect]: Inflict Burn on Enemy x3 dealing DMG equal to 24.2% of ATK every 10s for 20s. (Success Rate: 50%.)');
   	}
 });
 
