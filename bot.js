@@ -97,7 +97,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === 'sk.aria') {
-    	msg.reply('my gun says: \n \n **Quad Slash Impact - cd 82s** \n Level 1: \n :white_small_square:[Regular Damage:] Deal damage equal to 251,7% of ATK to Enemy x1. \n :white_small_square:[Debuff]: Decrease Damage of Enemy x1 by 27,9%. (Success Rate: 50%, Duration 60s.) \n Level 6: \n :white_small_square:[Regular Damage:] Deal damage equal to 371,1% of ATK to Enemy x1. \n :white_small_square:[Debuff]: Decrease Damage of Enemy x1 by 31,6%. (Success Rate: 80%, Duration 60s.) \n :white_small_square:[Additional Damage]: Deal additional damage equal to 7,3% of Max HP to Enemy x1. (Max Damage: 150% of ATK.) \n \n **Cross Impact - cd 92s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 248,4% of ATK to Enemy x1. \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 366,2% of ATK to Enemy x1. \n :white_small_square:[Additional Damage]: Deal additional damage equal to 186,3% of ATK to enemies affected by Chill. \n :white_small_square:[Additional Damage]: Deal fixed damage of 2029 to Enemy x1.');
+    	msg.reply('my gun says: \n \n **Quad Slash Impact - cd 82s** \n Level 1: \n :white_small_square:[Regular Damage:] Deal damage equal to 251.7% of ATK to Enemy x1. \n :white_small_square:[Debuff]: Decrease Damage of Enemy x1 by 27,9%. (Success Rate: 50%, Duration 60s.) \n Level 6: \n :white_small_square:[Regular Damage:] Deal damage equal to 371,1% of ATK to Enemy x1. \n :white_small_square:[Debuff]: Decrease Damage of Enemy x1 by 31,6%. (Success Rate: 80%, Duration 60s.) \n :white_small_square:[Additional Damage]: Deal additional damage equal to 7,3% of Max HP to Enemy x1. (Max Damage: 150% of ATK.) \n \n **Cross Impact - cd 92s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 248,4% of ATK to Enemy x1. \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 366,2% of ATK to Enemy x1. \n :white_small_square:[Additional Damage]: Deal additional damage equal to 186,3% of ATK to enemies affected by Chill. \n :white_small_square:[Additional Damage]: Deal fixed damage of 2029 to Enemy x1.');
   	}
 });
 
@@ -123,6 +123,44 @@ client.on('message', msg => {
 client.on('message', msg => {
     if (msg.content === 'ld.ash') {
     	msg.reply('my gun says: \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of allies by 25%. \n \n **Level 2** \n Increase ATK of allies by 45%.');
+  	}
+});
+
+//Blossom
+client.on('message', msg => {
+    if (msg.content === 'gr.blossom') {
+    	msg.reply('my gun says: \n \n Grimoire: \n **Tick-Tick Boom** \n [Additional Damage]: Inflict Time Bomb that deals damage equal to 46.1% of ATK when Active Skills is triggered. (Success Rate: 60%. Apply damage after 12s. Remove 1 Buff from Hit Target.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.blossom') {
+    	msg.reply('my gun says: \n \n **Teddy Bear - cd 52s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 118.2% of ATK to Enemy x3. \n :white_small_square:[Status Effect]: Inflict Burn on Enemy x4, dealing DMG equal to 26.1% of ATK every 10s for 20. (Success Rate: 30%.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 242.2% of ATK to Enemy x4. \n :white_small_square:[Status Effect]: Inflict Burn on Enemy x4, dealing DMG equal to 29.5% of ATK every 10s for 20. (Success Rate: 50%.) \n \n **Terror Bear - cd 88s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 178.6% of ATK to Enemy x3. \n :white_small_square:[Increase DMG Taken of Enemy x3 by 24.2%. (Duration: 60s.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 243.6% of ATK to Enemy x5. \n :white_small_square:[Increase DMG Taken of Enemy x5 by 27.3%. (Duration: 60s.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.blossom') {
+    	msg.reply('my gun says: \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of Fire allies by 40%. \n \n **Level 2** \n Increase ATK of Fire allies by 60%.');
+  	}
+});
+
+//Beatrice
+client.on('message', msg => {
+    if (msg.content === 'gr.beatrice') {
+    	msg.reply('my gun says: \n \n Grimoire: \n **Pale-Winged Knight** \n [Additional Damage]: Deal additional damage equal to 36.1% of ATK to enemies affected by bleeding when Active Skills are triggered.[Buff]: When hit, remove 1 Debuff from Self. (Success Rate: 20%.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.beatrice') {
+    	msg.reply('my gun says: \n \n **Slashing Frenzy - cd 56s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 252.6% of ATK to Enemy x1. \n :white_small_square:[Status Effect]: Inflict bleed that deals damage equal to 9.3% of ATK every 5s for 30s. (Success Rate: 80%.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 368.8% of ATK to Enemy x1. \n :white_small_square:[Status Effect]: Inflict bleed that deals damage equal to 10.5% of ATK every 5s for 30s. (Success Rate: 80%.) \n :white_small_square:[Buff]: Increase Crit DMG of Self by 32.4% (Duration: 60s.) \n \n **Thousand Graves - cd 94s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal Damage equal to 158.7% of ATK to Enemy x3. (Guaranteed critical.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal Damage equal to 224.9% of ATK to Enemy x4. (Guaranteed critical.) \n :white_small_square:[Additional damage]: Deal fixed damage of 1547 to Enemy x4.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.beatrice') {
+    	msg.reply('my gun says: \n \n **Leader Skill:** \n **Level 1** \n If there are at least Ally x3 of Wind allies, increase allies ATK by 35%. Increase Crit DMG of allies by 10%. \n \n **Level 2** \n Not enough data...need more gunpowder!');
   	}
 });
 
