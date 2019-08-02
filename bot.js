@@ -12,7 +12,7 @@ client.on('ready', () => {
 //Aglaea
 client.on('message', msg => {
     if (msg.content === 'gr.aglaea') {
-    	msg.reply('my gun says: \n \n **Frostbite** \n [Status Effect]: Inflict Freeze for 18s when Active Skills are triggered. (Success Rate: 10%.)[Passive Effect]: Increase the ATK of allies in the same row by 11,6%');
+    	msg.reply('my gun says: \n \n **Imperial Bow** \n Grimoire \n **Frostbite** \n [Status Effect]: Inflict Freeze for 18s when Active Skills are triggered. (Success Rate: 10%.)[Passive Effect]: Increase the ATK of allies in the same row by 11,6%');
   	}
 });
 
@@ -24,14 +24,34 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === 'ld.aglaea') {
-    	msg.reply('my gun says: \n \n **Leader Skill** \n **Level 1** \n Increase ATK of Physical-Type Allies by 20%. Increase Crit DMG of Physical-Type Allies by 10%. \n \n **Level 2** \n Not enough data...need more gunpowder!');
+    	msg.reply('my gun says: \n \n Leader Skill: \n **Level 1** \n Increase ATK of Physical-Type Allies by 20%. Increase Crit DMG of Physical-Type Allies by 10%. \n \n **Level 2** \n Not enough data...need more gunpowder!');
+  	}
+});
+
+
+//Alex
+client.on('message', msg => {
+    if (msg.content === 'gr.alex') {
+    	msg.reply('my gun says: \n \n **Blessed Shield** \n Grimoire: \n **Indomitable Spirit** \n [Buff]: Cast Barrier on Ally x2 that blocks up to 449 + 9.2% of ATK worth of damage when Active Skills is triggered. (Effect applies on Ally x2 with the highest ATK excluding self. Duration: 30s.)[Passive Effect]: Decrease DMG Taken of Self by 8.2%.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.alex') {
+    	msg.reply('my gun says: \n \n **Wings of Astraea - cd 60s** \n Level 1: \n :white_small_square:[Buff]: Increase DEF of Ally x5 by 25.2%. (Success Rate: 100%, Duration: 60s.) \n :white_small_square:[Buff]: Cast Barrier on Self that blocks up to 667 + 9.6% of ATK worth of damage. (Success Rate: 100%. Duration: 30s.) \n Level 6: \n :white_small_square:[Buff]: Increase DEF of Ally x5 by 28.5%. (Success Rate: 100%, Duration: 60s.) \n :white_small_square:[Buff]: Cast Barrier on Self that blocks up to 3167 + 21.5% of ATK worth of damage. (Success Rate: 100%. Duration: 50s.) \n :white_small_square:[Buff]: Decrease DMG Taken of Self by 27.7%. (Duration: 60s.) \n \n **Jupiter Burst - cd 84s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 176.5% of ATK to Enemy x3. \n :white_small_square:[Additional Damage]: Deal additional damage equal to 72.5% of DEF to Enemy x3. \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 260.9% of ATK to Enemy x3. \n :white_small_square:[Additional Damage]: Deal additional damage equal to 101.5% of DEF to Enemy x3. \n :white_small_square:[Debuff]: Increase DMG Taken of Enemy x3 by 25.9%. (Duration: 60s.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.alex') {
+    	msg.reply('my gun says: \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of Light allies by 40%. \n \n **Level 2** \n Increase ATK of Light allies by 40%.');
   	}
 });
 
 //Esta
 client.on('message', msg => {
     if (msg.content === 'gr.esta') {
-    	msg.reply('my gun says: \n \n **Bullet Carnival** \n [Debuff]: Decrease Block Rate of Hit Target by 9,9% when Active Skills are triggered. (Duration: 30s,)[Passive Effect]: increase Crit Rate of Self by 7,6%.');
+    	msg.reply('my gun says: \n \n ** Happy Sniper** \n Grimoire: \n **Bullet Carnival** \n [Debuff]: Decrease Block Rate of Hit Target by 9,9% when Active Skills are triggered. (Duration: 30s,)[Passive Effect]: increase Crit Rate of Self by 7,6%.');
   	}
 });
 
@@ -43,7 +63,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === 'ld.esta') {
-    	msg.reply('my gun says: \n \n **Leader Skill** \n **Level 1** \n Increase ATK of Physical-Type allies by 30% \n \n **Level 2** \n Increase ATK of Physical-Type allies by 50%');
+    	msg.reply('my gun says: \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of Physical-Type allies by 30% \n \n **Level 2** \n Increase ATK of Physical-Type allies by 50%');
   	}
 });
 
