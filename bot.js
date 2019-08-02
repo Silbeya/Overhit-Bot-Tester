@@ -40,13 +40,13 @@ client.on('message', msg => {
 //Aglaea
 client.on('message', msg => {
     if (msg.content === 'gr.aglaea') {
-    	msg.reply('my gun says: \n **Aglaea** \n \n Grimoire \n **Frostbite** \n [Status Effect]: Inflict Freeze for 18s when Active Skills are triggered. (Success Rate: 10%.)[Passive Effect]: Increase the ATK of allies in the same row by 11,6%');
+    	msg.reply('my gun says: \n **Aglaea** \n \n Grimoire \n **Frostbite** \n [Status Effect]: Inflict Freeze for 18s when Active Skills are triggered. (Success Rate: 10%.)[Passive Effect]: Increase the ATK of allies in the same row by 11.6%');
   	}
 });
 
 client.on('message', msg => {
     if (msg.content === 'sk.aglaea') {
-    	msg.reply('my gun says: \n **Aglaea** \n \n **White Freeze - cd 78s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 315,9% of ATK to Enemy x3. (Sequentially attack Enemy x3.) \n :white_small_square:[Status Effect]: Inflict Chill that deals damage equal to 4,3% of ATK every 4s for 36s. (Success Rate: 30%.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 466,5% of ATK to Enemy x3. (Sequentially attack Enemy x3.) \n :white_small_square:[Status Effect]: Inflict Chill on Enemy x3 that deals damage equal to 4,8% of ATK every 4s for 36s. (Success Rate: 100%.) \n \n **Gunnar Comet - cd 105s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 305,5% of ATK to Enemy x1. (Guaranteed critical.) \n :white_small_square:[Additional Damage]: Deal fixed damage of 790 to enemies affected by Chill. \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 427.8% of ATK to Enemy x1. (Guaranteed critical.) \n :white_small_square:[Additional Damage]: Deal fixed damage of 3871 to enemies affected by Chill.');
+    	msg.reply('my gun says: \n **Aglaea** \n \n **White Freeze - cd 78s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 315.9% of ATK to Enemy x3. (Sequentially attack Enemy x3.) \n :white_small_square:[Status Effect]: Inflict Chill that deals damage equal to 4.3% of ATK every 4s for 36s. (Success Rate: 30%.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 466.5% of ATK to Enemy x3. (Sequentially attack Enemy x3.) \n :white_small_square:[Status Effect]: Inflict Chill on Enemy x3 that deals damage equal to 4.8% of ATK every 4s for 36s. (Success Rate: 100%.) \n \n **Gunnar Comet - cd 105s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 305.5% of ATK to Enemy x1. (Guaranteed critical.) \n :white_small_square:[Additional Damage]: Deal fixed damage of 790 to enemies affected by Chill. \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 427.8% of ATK to Enemy x1. (Guaranteed critical.) \n :white_small_square:[Additional Damage]: Deal fixed damage of 3871 to enemies affected by Chill.');
   	}
 });
 
@@ -56,6 +56,24 @@ client.on('message', msg => {
   	}
 });
 
+//Agnes
+client.on('message', msg => {
+    if (msg.content === 'gr.agnes') {
+    	msg.reply('my gun says: \n **Agnes** \n \n Grimoire \n **Paradise Lost** \n [Debuff]: Increase damage reflected on target by 19.9% when active skill is triggered. (Success Rate: 80%. Duration: 30 seconds.) [Buff]: Apply 22.4% damage reduction from Enemy to 3 allies when battle begins/ (Apply on the 3 allies with the highest ATK. Duration: 30 seconds.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.agnes') {
+    	msg.reply('my gun says: \n **Agnes** \n \n **Rose Red Flash - cd 57s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 244.4% of ATK to Enemy x1. (Final attack applies to 3 enemies.) \n :white_small_square:[Healing]: For every 1 attacks, heal self by 125 HP. \n :white_small_square:[Buff]: Reflect 15.6% of damage taken by allies placed in own row. (Success Rate: 100%. Duration: 30 seconds. Max Damage: 100% of ATK.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 342.2% of ATK to Enemy x1. (Final attack applies to 3 enemies.) \n :white_small_square:[Healing]: For every 1 attacks, heal self by 500 HP. \n :white_small_square:[Buff]: Reflect 17.7% of damage taken by allies placed in own row. (Success Rate: 100%. Duration: 30 seconds. Max Damage: 100% of ATK.) \n \n **Rose Red Shockwave - cd 100s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 172.7% of ATK to 3 enemies. \n :white_small_square:[Debuff]: Decrease Healing of 3 enemies by 45%. (Apply on the 3 enemies with the highest ATK. Duration: 60 seconds.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 241.8% of ATK to 5 enemies. \n :white_small_square:[Debuff]: Decrease Healing of 3 enemies by 50.9%. (Apply on the 3 enemies with the highest ATK. Duration: 60 seconds.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.agnes') {
+    	msg.reply('my gun says: \n **Agnes** \n \n Leader Skill: \n **Level 1** \n Increase DEF of female allies by 25%. Increase HP of allies by 10% \n \n **Level 2** \n Increase DEF of female allies by 45%. Increase HP of allies by 20%');
+  	}
+});
 
 //Alex
 client.on('message', msg => {
@@ -301,6 +319,25 @@ client.on('message', msg => {
 client.on('message', msg => {
     if (msg.content === 'ld.esta') {
     	msg.reply('my gun says: \n **Esta** \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of Physical-Type allies by 30% \n \n **Level 2** \n Increase ATK of Physical-Type allies by 50%');
+  	}
+});
+
+//Francesca
+client.on('message', msg => {
+    if (msg.content === 'gr.francesca') {
+    	msg.reply('my gun says: \n **Francesca** \n \n Grimoire: \n **Fiery Rabbit** \n [Additional Damage]: Deal additional damage equal to 29.2% of ATK to 5 enemies every 2 attacks.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.francesca') {
+    	msg.reply('my gun says: \n **Francesca** \n \n **Morph Hammer - cd 72s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 270.8% of ATK to 1 enemy. \n :white_small_square:[Chain Effect]: Deal damage equal to 298.6% of ATK to all enemies affected by Burn (Final attack applies to 3 enemies.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 379.1% of ATK to 1 enemy. \n :white_small_square:[Chain Effect]: Deal damage equal to 402% of ATK to all enemies affected by Burn (Final attack applies to 3 enemies.) \n \n **Morph Scythes - cd 94s** \n Level 1: \n :white_small_square:[Debuff]: Increase damage taken by all enemies in the front row by 39% (Success Rate: 100%. Duration: 12 seconds.) \n :white_small_square:[Regular Damage]: Deal damage equal to 212% of ATK to 1 enemy. (Final attack applies to 4 enemies.) \n Level 6: \n :white_small_square:[Debuff]: Increase damage taken by all enemies in the front row by 44.1% (Success Rate: 100%. Duration: 12 seconds.) \n :white_small_square:[Regular Damage]: Deal damage equal to 296.9% of ATK to 1 enemy. (Final attack applies to 5 enemies.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.francesca') {
+    	msg.reply('my gun says: \n **Francesca** \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of fire-type allies by 25%. Increase Max DEF of fire-type allies by 10%. \n \n **Level 2** \n Increase ATK of fire-type allies by 45%. Increase Max DEF of fire-type allies by 20%.');
   	}
 });
 
