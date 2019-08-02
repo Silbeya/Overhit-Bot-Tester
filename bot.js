@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('message', message => {
     if (message.content === 'gr.esta') {
-    	msg.channel.send("your message here");
+    	message.reply('pong');
   	}
 });
 
