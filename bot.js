@@ -107,6 +107,25 @@ client.on('message', msg => {
   	}
 });
 
+//Ash
+client.on('message', msg => {
+    if (msg.content === 'gr.ash') {
+    	msg.reply('my gun says: \n \n Grimoire: \n **Mercenary Will** \n [Additional Damage]: Deal additional damage equal to 28.7% of ATK to enemies affected by Burn when Active Skills are triggered.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.ash') {
+    	msg.reply('my gun says: \n \n **Accelerator Boost - cd 45s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 258.7% of ATK to Enemy x1. \n :white_small_square:[Status Effect]: Inflict Burn that deals damage equal to 26.1% of ATK every 10s for 20s. (Success Rate: 30%.) \n :white_small_square:[Chain Effect]: Deal damage equal to 245.5% of ATK to enemies affected by Poison. (Guaranteed critical.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 362.2% of ATK to Enemy x1. \n :white_small_square:[Buff]: Increase DEF of Self by 43.2%. (Duration: 60s.) \n :white_small_square:[Status Effect]: Inflict Burn that deals damage equal to 29.5% of ATK every 10s for 20s. (Success Rate: 30%.) \n :white_small_square:[Chain Effect]: Deal damage equal to 245.5% of ATK to enemies affected by Poison. (Guaranteed critical.) \n \n **Voltaic Savior - cd 70s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 211.8% of ATK to Enemy x3. \n :white_small_square:[Debuff]: Decrease ATK of Enemy x3 by 28.6%. (Duration: 60s.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 296.6% of ATK to Enemy x4. \n :white_small_square:[Debuff]: Decrease ATK of Enemy x4 by 32.3%. (Duration: 60s.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.ash') {
+    	msg.reply('my gun says: \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of allies by 25%. \n \n **Level 2** \n Increase ATK of allies by 45%.');
+  	}
+});
+
 //Esta
 client.on('message', msg => {
     if (msg.content === 'gr.esta') {
