@@ -781,7 +781,7 @@ client.on('message', msg => {
 //SunWukong
 client.on('message', msg => {
     if (msg.content === 'gr.sunwukong') {
-    	msg.reply('my gun says: \n **SunWukong** \n \n Grimoire: \n **Peach of Immortality** \n [Buff]: Decrease own Cooldown by 2s when healed. \n [Debuff]: Deal Bleed Damage equal to 6.3% of ATK every 5s for 30s when using a regular attack on a target no affected by Bleed. \n [Status Effect]: Inflict Silence on a hit target for 20s when using a regular attack on targets affected by Bleed (Duration: 20s).');
+    	msg.reply('my gun says: \n **SunWukong** \n \n Grimoire: \n **Peach of Immortality** \n :white_small_square:[Buff]: Decrease own Cooldown by 2s when healed. \n :white_small_square:[Debuff]: Deal Bleed Damage equal to 6.3% of ATK every 5s for 30s when using a regular attack on a target no affected by Bleed. \n :white_small_square:[Status Effect]: Inflict Silence on a hit target for 20s when using a regular attack on targets affected by Bleed (Duration: 20s).');
   	}
 });
 
