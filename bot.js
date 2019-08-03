@@ -436,5 +436,62 @@ client.on('message', msg => {
   	}
 });
 
+//Jack
+client.on('message', msg => {
+    if (msg.content === 'gr.jack') {
+    	msg.reply('my gun says: \n **Jack** \n \n Grimoire: \n **Mechaknight Vanguard** \n [Buff]: When HP is 50% or lower, cast Barrier on Ally x5 that blocks up to 355 + 8.3% of ATK worth of damage. (Duration: 30s.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.jack') {
+    	msg.reply('my gun says: \n **Jack** \n \n **Wicked Wrestler - cd 44s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 170.3% of ATK to Enemy x1. \n :white_small_square:[Additional Damage:] Deal additional damage equal to 147.7% of ATK to Dark enemies. \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 361.2% of ATK to Enemy x1. \n :white_small_square:[Additional Damage:] Deal additional damage equal to 184.7% of ATK to Dark enemies. \n \n **Death Parade - cd 85s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 102% of ATK to Enemy x3. \n :white_small_square:[Additional Damage]: Deal additional damage equal to 41.9% of DEF if Barrier effect is applied. \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 268.2% of ATK to Enemy x4. \n :white_small_square:[Additional Damage]: Deal additional damage equal to 58.6% of DEF if Barrier effect is applied. \n :white_small_square:[Debuff]: Decrease Healing of Enemy x4 by 29.6% (Duration: 60s.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.jack') {
+    	msg.reply('my gun says: \n **Jack** \n \n **Leader Skill:** \n **Level 1** \n Increase Crit Resist Rate of allies by 10%. \n \n **Level 2** \n Increase Crit Resist Rate of allies by 20%');
+  	}
+});
+
+//Jasper
+client.on('message', msg => {
+    if (msg.content === 'gr.jasper') {
+    	msg.reply('my gun says: \n **Jasper** \n \n Grimoire: \n **Paralyzing Drive** \n [Buff]: Increase Self ATK by 28.2% when Active Skills are triggered. (Duration: 40s.)[Debuff]: When Active Skills are triggered, inflict Block Healing on the struck target. (Success Rate: 50%, Duration. 30s.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.jasper') {
+    	msg.reply('my gun says: \n **Jasper** \n \n **Extreme Ride - cd 64s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 212.8% of ATK to Enemy x3. \n :white_small_square:[Status Effect]: Inflict Silence on Enemy x3 for 20s. (Success Rate: 30%.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 306% of ATK to Enemy x4. \n :white_small_square:[Status Effect]: Inflict Silence on Enemy x4 for 20s. (Success Rate: 40%.) \n \n **Omega Drive - cd 80s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 168.2% of ATK to Enemy x4. \n :white_small_square:[Additional Damage]: Deal fixed damage of 288 to Enemy x4. \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 248.6% of ATK to Enemy x5. \n :white_small_square:[Additional Damage]: Deal fixed damage of 1410 to Enemy x5.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.jasper') {
+    	msg.reply('my gun says: \n **Jasper** \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of allies by 25%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+  	}
+});
+
+//Jinkai
+client.on('message', msg => {
+    if (msg.content === 'gr.jinkai') {
+    	msg.reply('my gun says: \n **Jinkai** \n \n Grimoire: \n **Aggressive Defense** \n [Buff]: Cast Physical Damage Resist effect on Self 1 time when Active Skills are triggered. (Success Rate: 30%. Duration: 32s.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.jinkai') {
+    	msg.reply('my gun says: \n **Jinkai** \n \n **Vajra Strike - cd 58s** \n Level 1: \n :white_small_square:[Buff]: Cast Barrier on Ally x3 that blocks up to 458 + 7.8% of ATK worth of damage. (Duration: 30s.) \n :white_small_square:[Buff]: Apply Taunt on Self, making them priority targets for enemies. (Duration 25s.) \n Level 6: \n :white_small_square:[Buff]: Cast Barrier on Ally x4 that blocks up to 2174 + 17.7% of ATK worth of damage. (Duration: 50s.) \n :white_small_square:[Buff]: Apply Taunt on Self, making them priority targets for enemies. (Duration 40s.) \n :white_small_square:[Buff]: Increase DEF of Ally y4 by 34.6%. (Duration: 60.s) \n \n **Asura Path - cd 94s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 138% of ATK to Enemy x4. \n :white_small_square:[Status Effect]: Inflict Silence on Enemy x4 for 20s. (Success Rate: 30%.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 203.8% of ATK to Enemy x4. \n :white_small_square:[Status Effect]: Inflict Silence on Enemy x5 for 20s. (Success Rate: 30%.) \n :white_small_square:[Debuff]: Decrease Damage of Enemy x5 by 22.5%. (Duration: 60s.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.jinkai') {
+    	msg.reply('my gun says: \n **Jinkai** \n \n **Leader Skill:** \n **Level 1** \n If there are at least 3 Light allies, increase allies ATK by 35%. Increase Crit DMG of allies by 10%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot 
