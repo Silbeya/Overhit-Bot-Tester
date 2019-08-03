@@ -835,6 +835,25 @@ client.on('message', msg => {
   	}
 });
 
+//Xanthippe
+client.on('message', msg => {
+    if (msg.content === 'gr.xanthippe') {
+    	msg.reply('my gun says: \n **Xanthippe** \n \n Grimoire: \n **Brand of the Guilty** \n :white_small_square:[Debuff]: Regular attacks Mark target. \n :white_small_square:[Mark]: Disappears after 40s, dealing damage equal to 25.2% of ATK. \n :white_small_square:[Note]: Mark targets again after Mark is removed. Immediately deal Mark DMG if target is already Marked.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.xanthippe') {
+    	msg.reply('my gun says: \n **Xanthippe** \n \n **Altar of Misery - cd 66s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 166.2% of ATK to 3 enemies. \n :white_small_square:[Debuff]: Has a 50% chance of Marking a target (Mark disappears after 40s, dealing damage equal to 41.3% of ATK). \n :white_small_square:[Chain Attack]: Deal damage equal to 176.4% of ATK to 3 enemies (Marked enemies trigger chain attacks). \n :white_small_square:[Chain Effect]: Heal HP of 3 allies for 132.7% of ATK when chain attack is triggered). \n :white_small_square:[Chain Effect]: Mark disappears, immediately inflicting Mark DMG when chain attack is triggered. \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 232.7% of ATK to 4 enemies. \n :white_small_square:[Debuff]: Has a 50% chance of Marking a target (Mark disappears after 40s, dealing damage equal to 48.7% of ATK). \n :white_small_square:[Chain Attack]: Deal damage equal to 247% of ATK to 4 enemies (Marked enemies trigger chain attacks). \n :white_small_square:[Chain Effect]: Heal HP of 4 allies for 172.5% of ATK when chain attack is triggered). \n :white_small_square:[Chain Effect]: Mark disappears, immediately inflicting Mark DMG when chain attack is triggered. \n \n **Hammer of Judgement - cd 100s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 150.9% of ATK to 4 enemies. \n :white_small_square:[Debuff]: Has a 50% chance of Marking targets (Mark disappears after 40s, dealing damage equal to 52.1% of ATK). \n :white_small_square:[Chain Attack]: Deal damage equal to 187.1% of ATK to 4 enemies (Marked enemies trigger chain attacks). \n :white_small_square:[Chain Effect]: Decrease ATK of Hit Targets by 26.8% when chain attack is triggered (Duration:60s). \n :white_small_square:[Chain Effect]: Mark disappears, immediately inflicting Mark DMG when chain attack is triggered. \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 202.1% of ATK to 5 enemies. \n :white_small_square:[Debuff]: Has a 50% chance of Marking targets (Mark disappears after 40s, dealing damage equal to 61.5% of ATK). \n :white_small_square:[Chain Attack]: Deal damage equal to 262% of ATK to 5 enemies (Marked enemies trigger chain attacks). \n :white_small_square:[Chain Effect]: Decrease ATK of Hit Targets by 30.2% when chain attack is triggered (Duration:60s). \n :white_small_square:[Chain Effect]: Mark disappears, immediately inflicting Mark DMG when chain attack is triggered.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.xanthippe') {
+    	msg.reply('my gun says: \n **Xanthippe** \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of Dark-type allies by 40%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+  	}
+});
+
 //Yggdrasil
 client.on('message', msg => {
     if (msg.content === 'gr.yggdrasil') {
@@ -853,6 +872,7 @@ client.on('message', msg => {
     	msg.reply('my gun says: \n **Yggdrasil** \n \n **Leader Skill:** \n **Level 1** \n Increase Status Effect Resist Rate of allies by 10%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
   	}
 });
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot 
