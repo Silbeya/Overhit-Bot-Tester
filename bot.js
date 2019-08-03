@@ -835,5 +835,24 @@ client.on('message', msg => {
   	}
 });
 
+//Yggdrasil
+client.on('message', msg => {
+    if (msg.content === 'gr.yggdrasil') {
+    	msg.reply('my gun says: \n **Yggdrasil** \n \n Grimoire: \n **Popohype** \n [Buff]: Decrease DMG Taken of Ally x1 by 17.9% when Active Skills are triggered. (Apply effect on Ally x1 with the highest ATK.)[Buff]: When hit, increase Self healing by 22.7% (Sucess Rate: 70%. Duration: 40s.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.yggdrasil') {
+    	msg.reply('my gun says: \n **Yggdrasil** \n \n **Mystletainn Blessing - cd 80s** \n Level 1: \n :white_small_square:[Buff]: Apply Damage Immunity effect on Ally x3 1 time(s). (Duration: 32s.) \n Level 6: \n :white_small_square:[Buff]: Apply Damage Immunity effect on Ally x5 1 time(s). (Duration: 41s.) \n :white_small_square:[Buff]: Decrease Skill Cooldown of Ally x3 by 18s. (Apply effect on Ally x3 with the highest ATK.) \n \n **World Tree Light - cd 110s** \n Level 1: \n :white_small_square:[Healing]: Heal HP of Ally x5 for 29.8% of ATK every 8s for 40s. \n :white_small_square:[Buff]: Increase DEF of Ally x5 by 29.1%. (Duration: 60s.) \n Level 6: \n :white_small_square:[Healing]: Heal HP of Ally x5 for 35.2% of ATK every 8s for 40s. \n :white_small_square:[Buff]: Increase DEF of Ally x5 by 32.8%. (Duration: 60s.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.yggdrasil') {
+    	msg.reply('my gun says: \n **Yggdrasil** \n \n **Leader Skill:** \n **Level 1** \n Increase Status Effect Resist Rate of allies by 10%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot 
