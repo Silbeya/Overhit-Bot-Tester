@@ -721,5 +721,65 @@ client.on('message', msg => {
   	}
 });
 
+//Saion
+client.on('message', msg => {
+    if (msg.content === 'gr.saion') {
+    	msg.reply('my gun says: \n **Saion** \n \n Grimoire: \n **Primal Heart** \n [Passive Effect]: Increase DEF of allies in own back row by 13.2%. [Buff]: Apply Physical Damage Resist to self when HP is below 30%. (Apply only 1 time during the battle. Duration: 35 seconds.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.saion') {
+    	msg.reply('my gun says: \n **Saion** \n \n **Wrecker - cd 64s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 134.4% of ATK to 4 enemies. \n :white_small_square:[Debuff]: Decrease ATK of target by 18.9%. (Success Rate: 80%. Duration 60 seconds.) \n :white_small_square:[Buff]: Apply Taunt to self, making self priority target for enemies (Success Rate: 30%. Duration: 37s). \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 193.2% of ATK to 5 enemies. \n :white_small_square:[Debuff]: Decrease ATK of target by 21.3%. (Success Rate: 80%. Duration 60 seconds.) \n :white_small_square:[Buff]: Apply Taunt to self, making self priority target for enemies (Success Rate: 30%. Duration: 48s). \n \n **Raging Firestorm - cd 80s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 291.7% of ATK to 1 enemy. \n :white_small_square:[Status Effect]: Apply Desertion to target for 15 seconds. (Success Rate: 80%) \n :white_small_square:[Desertion]: Desertion applied for the effect duration. Regular attacks and active skills are unavailable, and target cannot be set during Desertion. Increase Cooldown by 15 seconds when returning to battle.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 408.4% of ATK to 1 enemy. \n :white_small_square:[Status Effect]: Apply Desertion to target for 15 seconds. (Success Rate: 80%) \n :white_small_square:[Desertion]: Desertion applied for the effect duration. Regular attacks and active skills are unavailable, and target cannot be set during Desertion. Increase Cooldown by 15 seconds when returning to battle.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.saion') {
+    	msg.reply('my gun says: \n **Saion** \n \n **Leader Skill:** \n **Level 1** \n Increase HP of allies by 10%. Decrease damage taken by wind-type allies by 5%. \n \n **Level 2** \n Increase HP of allies by 20%. Decrease damage taken by wind-type allies by 10%.');
+  	}
+});
+
+//Shoumei
+client.on('message', msg => {
+    if (msg.content === 'gr.shoumei') {
+    	msg.reply('my gun says: \n **Shoumei** \n \n Grimoire: \n **World Changer** \n [Status Effect]: Inflict Block Healing for 30s when Regular Attack is triggered. (Duration: 30s.)[Healing]: Heal Self HP for 24.8% of ATK when Regular Attack is triggered. (Success Rate: 30%.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.shoumei') {
+    	msg.reply('my gun says: \n **Shoumei** \n \n **Bountiful Blooms - cd 84s** \n Level 1: \n :white_small_square:[Healing]: Heal Ally x5 for 98.1% of ATK. \n :white_small_square:[Buff]: Increase DEF of Ally x5 by 23.9%. (Duration: 60s.) \n Level 6: \n :white_small_square:[Healing]: Heal Ally x5 for 127.6% of ATK. \n :white_small_square:[Buff]: Increase DEF of Ally x5 by 27.1%. (Duration: 60s.) \n :white_small_square:[Additional Healing]: Additionally heal Ally x1 for 63.5% of ATK. (Apply effect on Ally x1 with the lowest HP.) \n \n **Flower Burst - cd 108s** \n Level 1: \n :white_small_square:[Buff]: Inflict Status Effect Immunity on Ally x4 for 15s. (Duration: 15s.) \n :white_small_square:[Buff]: Decrease DMG Taken of Ally x4 by 16.6%. (Duration: 60s.) \n Level 6: \n :white_small_square:[Buff]: Inflict Status Effect Immunity on Ally x5 for 15s. (Duration: 15s.) \n :white_small_square:[Buff]: Decrease DMG Taken of Ally x5 by 18.7%. (Duration: 60s.) \n :white_small_square:[Buff]: Remove 1 Debuff from Ally x5.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.shoumei') {
+    	msg.reply('my gun says: \n **Shoumei** \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of allies by 25%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+  	}
+});
+
+//Sophia
+client.on('message', msg => {
+    if (msg.content === 'gr.sophia') {
+    	msg.reply('my gun says: \n **Sophia** \n \n Grimoire: \n **Maiden Blessing** \n [Buff]: Decrease Skill Cooldown of Ally x1 by 10s when Active Skills is triggered. (Apply effect on Ally x1 with the highest ATK, excluding Self.)[Passive Effect]: Increase healing of Light Ally by 11.7%.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.sophia') {
+    	msg.reply('my gun says: \n **Sophia** \n \n **Tender Care - cd 63s** \n Level 1: \n :white_small_square:[Healing]: Heal Ally x3 for 161.5% of ATK. \n Level 6: \n :white_small_square:[Healing]: Heal Ally x4 for 209.9% of ATK. \n :white_small_square:[Buff]: Remove 1 Debuff from Ally x2. \n \n **Resplendent Bloom - cd 80s** \n Level 1: \n :white_small_square:[Resurrection]: Resurrect Ally x1 with 40% of HP. \n :white_small_square:[Healing]: Heal HP of revived ally for 37% of ATK every 8s for 40s. \n Level 6: \n :white_small_square:[Resurrection]: Resurrect Ally x1 with 60% of HP. \n :white_small_square:[Healing]: Heal HP of Ally x1 for 43.9% of ATK every 8s for 40s. \n :white_small_square:[Buff]: Increase Status Effect Resist Rate of Ally x3 by 35.5%. (Duration: 60s.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.sophia') {
+    	msg.reply('my gun says: \n **Sophia** \n \n **Leader Skill:** \n **Level 1** \n Increase DEF of Light-type allies by 40%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+  	}
+});
+
+//SunWukong
+
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot 
