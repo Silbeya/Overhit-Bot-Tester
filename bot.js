@@ -668,7 +668,23 @@ client.on('message', msg => {
 
 
 //Rito
+client.on('message', msg => {
+    if (msg.content === 'gr.rito') {
+    	msg.reply('my gun says: \n **Rito** \n \n Grimoire: \n **Doomsday Thunder** \n [Buff] When an active skill is used, reduce damage to allies by 14%. (Success Rate: 100%; Duration 40 seconds)[Addtional Damage] Add damage equal to 38.9% of ATK to all attacks.');
+  	}
+});
 
+client.on('message', msg => {
+    if (msg.content === 'sk.rito') {
+    	msg.reply('my gun says: \n **Rito** \n \n **Punishing Bolt - cd 85s** \n Level 1: \n :white_small_square:[Standard Damage]: Deal damage equal to 173.1% of ATK to 3 enemies. \n :white_small_square:[Additional Damage]: Deal damage equal to 46.2% of ATK to physical-type enemies. \n Level 6: \n :white_small_square:[Standard Damage]: Deal damage equal to 242.4% of ATK to 5 enemies. \n :white_small_square: [Additional Damage]: Deal damage equal to 57.7% of ATK to physical-type enemies. \n \n **Retribution - cd 110s** \n Level 1: \n :white_small_square:[Standard Damage]: Deal damage equal to 258.8% of ATK to Enemy x4. \n :white_small_square:[Status Effect]: Inflict Shock on targets affected by Chill (Success Rate: 70%. Duration: 18s) \n Level 6: \n :white_small_square:[Standard Damage]: Deal damage equal to 184.9% of ATK to Enemy x4. \n :white_small_square:[Status Effect]: Inflict Shock on targets affected by Chill (Success Rate: 70%. Duration: 18s)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.rito') {
+    	msg.reply('my gun says: \n **Rito** \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of all water-type allies by 25%. Increase DEF of all water-type allies by 10%. \n \n **Level 2** \n Increase ATK of all water-type allies by 45%. Increase DEF of all water-type allies by 20%.');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot 
