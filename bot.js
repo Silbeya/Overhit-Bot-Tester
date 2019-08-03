@@ -417,5 +417,24 @@ client.on('message', msg => {
   	}
 });
 
+//Iroha
+client.on('message', msg => {
+    if (msg.content === 'gr.iroha') {
+    	msg.reply('my gun says: \n **Iroha** \n \n Grimoire: \n **Spirit Shield** \n [Passive effect] Reduce damage from Fire-type enemies by 8.7%.[Buff]: When an active skill is used, heal 2 allies for 20.7% of ATK every 8 seconds for 40 seconds.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.iroha') {
+    	msg.reply('my gun says: \n **Iroha** \n \n **Iron Bastion - cd 65s** \n Level 1: \n :white_small_square:[Buff] : Cast Barrier on 4 allies, blocking damage equal to 689 + 13.4% of ATK (Applies to the 4 allies with the highest DEF). \n :white_small_square:[Buff] Raise DEF of 5 allies by 26%. (Duration : 60 seconds) \n Level 6: \n :white_small_square:[Buff] : Cast Barrier on 5 allies, blocking damage equal to 3271 + 30.1% of ATK. (Duration : 30 seconds) \n :white_small_square:[Buff] Raise DEF of 5 allies by 29.4%. (Duration : 60 seconds) \n \n **Violet Lightning Blast - cd 88s** \n Level 1: \n :white_small_square:[Regular Damage] : Deal damage equal to 126.2% of ATK to 4 enemies. \n :white_small_square:[Buff] : Reduce damage from 4 enemies by 25.2% (Duration : 60 seconds) \n Level 6: \n :white_small_square:[Regular Damage] : Deal damage equal to 176.6% of ATK to 5 enemies. \n :white_small_square:[Buff] : Reduce damage from 5 enemies by 28.5% (Duration : 60 seconds)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.iroha') {
+    	msg.reply('my gun says: \n **Iroha** \n \n **Leader Skill:** \n **Level 1** \n If there are at least 3x Water-type allies, increase ATK of all allies by 15%. Increase Block Rate of all allies by 5%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot 
