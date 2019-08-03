@@ -493,5 +493,62 @@ client.on('message', msg => {
   	}
 });
 
+//Leika
+client.on('message', msg => {
+    if (msg.content === 'gr.leika') {
+    	msg.reply('my gun says: \n **Leika** \n \n Grimoire: \n **White Snake Tear** \n [Buff]: Increase Self ATK by 21.2% when Block is triggered. (Duration: 40s.)[Passive Effect]: Increase the Block Rate of allies in the same row by 4%.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.leika') {
+    	msg.reply('my gun says: \n **Leika** \n \n **Sakura Strike: Sange Blade - cd 83s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 213.4% of ATK to Enemy x3. \n :white_small_square:[Debuff]: Decrease Crit Rate of Enemy x3 by 23.2%. (Duration: 60s.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 303.1% of ATK to Enemy x4. \n :white_small_square:[Debuff]: Decrease Crit Rate of Enemy x4 by 26.2%. (Duration: 60s.) \n \n **Sakura Strike: Rakshasa Blade - cd 105s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 137.3% of ATK to Enemy x3. \n :white_small_square:[Additional Damage]: Deal fixed damage of 332 to enemies affected by Bleed. \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 232.8% of ATK to Enemy x4. \n :white_small_square:[Additional Damage]: Deal fixed damage of 1627 to enemies affected by Bleed. \n :white_small_square:[Buff] Increase Crit Rate of Self by 19.3%.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.leika') {
+    	msg.reply('my gun says: \n **Leika** \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of allies by 25%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+  	}
+});
+
+//Ludmila
+client.on('message', msg => {
+    if (msg.content === 'gr.ludmila') {
+    	msg.reply('my gun says: \n **Ludmila** \n \n Grimoire: \n **Volcanic Formula** \n [Passive Effect]: Increase Crit Rate of Fire Allies by 7.4%. \n [Buff]: Decrease Skill Cooldown of Self by 6s when Regular Attack is triggered (Success Rate: 100%).');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.ludmila') {
+    	msg.reply('my gun says: \n **Ludmila** \n \n **Infernal Lava - cd 68s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 316.2% of ATK to Enemy x3. (Sequentially attack Enemy x3.) \n :white_small_square:[Status Effect]: Inflict Burn that deals damage equal to 26.7% of ATK every 10s for 20s. (Success Rate: 30%.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 467% of ATK to Enemy x3. (Sequentially attack Enemy x3.) \n :white_small_square:[Status Effect]: Inflict Burn that deals damage equal to 30.2% of ATK every 10s for 20s. (Success Rate: 100%.) \n \n **Cremation - cd 88s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 142.2% of ATK to Enemy x3. \n :white_small_square:[Additional Damage]: Deal additional damage equal to 85.3% of ATK to enemies affected by Burn. \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 238.5% of ATK to Enemy x4. \n :white_small_square:[Additional Damage]: Deal additional damage equal to 106.6% of ATK to enemies affected by Burn. \n :white_small_square:[Status Effect]: Inflict Stun on Enemy x4 for 18s. (Success Rate: 30%.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.ludmila') {
+    	msg.reply('my gun says: \n **Ludmila** \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of Fire allies by 30%. Increase Max HP of Fire allies by 10%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+  	}
+});
+
+//Luna
+client.on('message', msg => {
+    if (msg.content === 'gr.luna') {
+    	msg.reply('my gun says: \n **Luna** \n \n Grimoire: \n **Lunar Protection** \n [Debuff]: Decrease ATK of Fire Enemies by 17.7% when Active Skills are triggered. (Duration: 40s.)[Debuff]: Decrease DEF of Hit Target by 9.7% when Regular Attack is triggered. (Success Rate: 30%. Duration: 40s.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.luna') {
+    	msg.reply('my gun says: \n **Luna** \n \n **Prism Beam - cd 66s** \n Level 1: \n :white_small_square:[Regular Damage] Deal Damage equal to 189.5% of ATK to Enemy x3. \n :white_small_square:[Debuff] Remove 1 Buff from Enemy x1. \n Level 6: \n :white_small_square:[Regular Damage] Deal Damage equal to 265.3% of ATK to Enemy x3. \n :white_small_square:[Additional Damage] Deal additional damage equal to 6% of Max Enemy HP to Enemy x3. (Max Damage: 150% of ATK) \n :white_small_square:[Debuff] Remove 1 Buff from Enemy x3. \n \n  **Resonant Beam - cd 95s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal Damage equal to 130.2% of ATK to Enemy x4. \n :white_small_square:[Additional Damage]: Deal additional Damage equal to 63.8% of ATK to enemies affected by Chill. \n Level 6: \n :white_small_square:[Regular Damage]: Deal Damage equal to 182.3% of ATK to Enemy x5. \n :white_small_square:[Debuff]: Increase Skill Cooldown of Enemy x5 by 12s. \n :white_small_square:[Additional Damage]: Deal additional Damage equal to 79.7% of ATK to enemies affected by Chill.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.luna') {
+    	msg.reply('my gun says: \n **Luna** \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of Magic-Type Allies by 30%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot 
