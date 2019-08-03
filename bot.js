@@ -812,7 +812,26 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === 'ld.teze') {
-    	msg.reply('my gun says: \n **Teze** \n \n **Leader Skill:** \n **Level 1** \n 	If there are at least x3 Dark Type allies, increase allies ATK by 35%. Increase Crit Rate of allies by 5%. \n \n **Level 2** \n If there are at least x3 Dark Type allies, increase allies ATK by 55%. Increase Crit Rate of allies by 10%.');
+    	msg.reply('my gun says: \n **Teze** \n \n **Leader Skill:** \n **Level 1** \n If there are at least x3 Dark Type allies, increase allies ATK by 35%. Increase Crit Rate of allies by 5%. \n \n **Level 2** \n If there are at least x3 Dark Type allies, increase allies ATK by 55%. Increase Crit Rate of allies by 10%.');
+  	}
+});
+
+//Unknown
+client.on('message', msg => {
+    if (msg.content === 'gr.unknown') {
+    	msg.reply('my gun says: \n **Unknown** \n \n Grimoire: \n **Evening Bell** \n [Passive Effect]: Increase ATK of Dark Ally by 9.1%.[Additional Damage]: Deal additional damage equal to 30.6% of ATK when Active Skills are triggered.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.unknown') {
+    	msg.reply('my gun says: \n **Unknown** \n \n **Shadow Servant - cd 55s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 219.6% of ATK to 3 enemies (Apply on the 3 enemies with the highest ATK). \n :white_small_square:[Additional Damage]: Deal damage equal to 185.7% of ATK to 1 enemy (Apply to the enemy with the highest ATK). \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 307.4% of ATK to 3 enemies (Apply on the 3 enemies with the highest ATK). \n :white_small_square:[Additional Damage]: Deal damage equal to 232.2% of ATK to 1 enemy (Apply to the enemy with the highest ATK). \n \n **Shadow World - cd 98s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 190.4% of ATK to 3 enemies. \n :white_small_square:[Buff]: Temporarily inflict Blood Sucking on self, recovering 33.7% of damage received (Recovers up to 50% of Max ATK. Duration: 10s) \n :white_small_square:[Buff]: Temporarily inflict Blood Sucking on 3 allies, recovering 19% of damage received (Applies to 3 allies with the lowest HP, excluding self. Recovers up to 50% of Max ATK. Duration: 40s) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 266.6% of ATK to 4 enemies. \n :white_small_square:[Buff]: Temporarily inflict Blood Sucking on self, recovering 43.9% of damage received (Recovers up to 50% of Max ATK. Duration: 10s) \n :white_small_square:[Buff]: Temporarily inflict Blood Sucking on 3 allies, recovering 24.8% of damage received (Applies to 3 allies with the lowest HP, excluding self. Recovers up to 50% of Max ATK. Duration: 40s)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.unknown') {
+    	msg.reply('my gun says: \n **Unknown** \n \n **Leader Skill:** \n **Level 1** \n If there are at least x3 Dark Type allies, increase ATK of all allies by 30%. Decrease ATK of Light-type enemies by 10%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
   	}
 });
 
