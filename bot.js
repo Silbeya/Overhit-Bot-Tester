@@ -779,7 +779,23 @@ client.on('message', msg => {
 });
 
 //SunWukong
+client.on('message', msg => {
+    if (msg.content === 'gr.sunwukong') {
+    	msg.reply('my gun says: \n **SunWukong** \n \n Grimoire: \n **Peach of Immortality** \n [Buff]: Decrease own Cooldown by 2s when healed. \n [Debuff]: Deal Bleed Damage equal to 6.3% of ATK every 5s for 30s when using a regular attack on a target no affected by Bleed. \n [Status Effect]: Inflict Silence on a hit target for 20s when using a regular attack on targets affected by Bleed (Duration: 20s).');
+  	}
+});
 
+client.on('message', msg => {
+    if (msg.content === 'sk.sunwukong') {
+    	msg.reply('my gun says: \n **SunWukong** \n \n **Staff of Heavenly Tears - cd 100s** \n Level 1: \n :white_small_square:[Buff]: Temporarily increase own Pierce Rate by 35.6%. (Success Rate: 100%. Duration: 7 seconds.) \n :white_small_square:[Regular Damage]: Deal damage equal to 198.9% of ATK to 3 enemies \n Level 6: \n :white_small_square:[Buff]: Temporarily increase own Pierce Rate by 40.2%. (Success Rate: 100%. Duration: 7 seconds.) \n :white_small_square:[Regular Damage]: Deal damage equal to 278.4% of ATK to 4 enemies \n \n **Great Sage Staff - cd 120s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 158% of ATK to Enemy x5. \n :white_small_square:[Additional Damage]: Deal additional damage equal to 64% of ATK to enemies affected by Bleed. \n :white_small_square:[Status Effect]: Inflict Stun on 5 enemies for 18 seconds (30% chance if own HP is above 50%, 60% if own HP is below 50%.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 221.1% of ATK to Enemy x5. \n :white_small_square:[Additional Damage]: Deal additional damage equal to 80% of ATK to enemies affected by Bleed. \n :white_small_square:[Status Effect]: Inflict Stun on 5 enemies for 18 seconds (30% chance if own HP is above 50%, 60% if own HP is below 50%.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.sunwukong') {
+    	msg.reply('my gun says: \n **SunWukong** \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of physical-type allies by 20%. Decrease ATK of enemies by 5%. \n \n **Level 2** \n Increase ATK of physical-type allies by 40%. Decrease ATK of enemies by 10%.');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot 
