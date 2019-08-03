@@ -646,7 +646,23 @@ client.on('message', msg => {
 });
 
 //Renga
+client.on('message', msg => {
+    if (msg.content === 'gr.renga') {
+    	msg.reply('my gun says: \n **Renga** \n \n Grimoire: \n **Unwavering Emotions** \n [Buff]: Apply All DMG immunity on all allies in own row 1 time at the start of battle (Duration: 30s) \n [Passive Effect]: Increase ATK of allies in own row by 10.6%.');
+  	}
+});
 
+client.on('message', msg => {
+    if (msg.content === 'sk.renga') {
+    	msg.reply('my gun says: \n **Renga** \n \n **Clearwater Dance - cd 84s** \n Level 1: \n :white_small_square:[Buff]: Reset cooldown of Ally x1 (Applies to the Ally with the highest ATK.) \n :white_small_square:[Buff]: Decrease DMG from enemies by 27.7% for Ally x3 (Duration:60s). \n Level 6: \n :white_small_square: Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks! \n \n **Midnight Sun Embrace - cd 94s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 126.4% of ATK to Enemy x4. \n :white_small_square:[Debuff]: Increase Cooldown by 13s for 1 enemy (Applies to the enemy with the highest ATK). \n :white_small_square:[Debuff]: Increase DMG Taken of Hit Target by 22.6% (Duration: 60s). \n Level 6: \n :white_small_square:Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.renga') {
+    	msg.reply('my gun says: \n **Renga** \n \n **Leader Skill:** \n **Level 1** \n Increase DEF of all allies by 30% if there are at least 3 light-type allies. Increase HP of allies by 10%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+  	}
+});
 
 //Rin
 
