@@ -665,7 +665,23 @@ client.on('message', msg => {
 });
 
 //Rin
+client.on('message', msg => {
+    if (msg.content === 'gr.rin') {
+    	msg.reply('my gun says: \n **Rin** \n \n Grimoire: \n **Garuda Breath** \n [Passive Effect]: Increase own ATK by 5% when All Attack is triggered (Can be stacked).');
+  	}
+});
 
+client.on('message', msg => {
+    if (msg.content === 'sk.rin') {
+    	msg.reply('my gun says: \n **Rin** \n \n **Sylphid Twilight - cd 72s** \n Level 1: \n :white_small_square:[Debuff]: Remove 1 buff from 1 enemy. \n :white_small_square:[Regular Damage]: Deal damage equal to 246.8% of ATK to 1 enemy. \n Level 6: \n :white_small_square:[Debuff]: Remove 1 buff from 1 enemy. \n :white_small_square:[Regular Damage]: Deal damage equal to 345.5% of ATK to 1 enemy. \n :white_small_square:[Buff]: Cast Barrier on Ally x3 that blocks up to 2706 + 18.6% of ATK worth of damage (Applies to Ally x3 with the lowest HP. Duration: 30s). \n \n **Sylphid Breath - cd 94s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 149.1% of ATK to Enemy x4. \n :white_small_square:[Debuff]: Decrease ATK of 1 enemy by 35.6% (Duration: 60s).  \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 208.7% of ATK to Enemy x5. \n :white_small_square:[Debuff]: Decrease ATK of 1 enemy by 40.2% (Duration: 60s).');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.rin') {
+    	msg.reply('my gun says: \n **Rin** \n \n **Leader Skill:** \n **Level 1** \n If there are at least 3 water-type allies, increase allies Crit DMG by 15%. Increase DEF of allies by 10% \n \n **Level 2** \n If there are at least 3 water-type allies, increase allies Crit DMG by 25%. Increase DEF of allies by 20%');
+  	}
+});
 
 //Rito
 client.on('message', msg => {
