@@ -831,7 +831,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === 'ld.unknown') {
-    	msg.reply('my gun says: \n **Unknown** \n \n **Leader Skill:** \n **Level 1** \n If there are at least x3 Dark Type allies, increase ATK of all allies by 30%. Decrease ATK of Light-type enemies by 10%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+    	msg.reply('my gun says: \n **Unknown** \n \n **Leader Skill:** \n **Level 1** \n If there are at least 3 Dark Type allies, increase ATK of all allies by 30%. Decrease ATK of Light-type enemies by 10%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
   	}
 });
 
