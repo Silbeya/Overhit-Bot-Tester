@@ -797,5 +797,24 @@ client.on('message', msg => {
   	}
 });
 
+//Teze
+client.on('message', msg => {
+    if (msg.content === 'gr.teze') {
+    	msg.reply('my gun says: \n **Teze** \n \n Grimoire: \n **Dark Acceleration** \n [Buff]: When hit, increase Self Crit DMG by 15.1%. (Duration: 40s.)[Passive Effect]: When HP is 50% lower, increase ATK of Self by 17.6%.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.teze') {
+    	msg.reply('my gun says: \n **Teze** \n \n **Shunyata - cd 45s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 251.7% of ATK to Enemy x1. \n :white_small_square:[Additional Damage]: Deal additional damage equal to 144.3% of ATK if ATK + effect is applied. \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 371.1% of ATK to Enemy x1. \n :white_small_square:[Additional Damage]: Deal additional damage equal to 180.4% of ATK if ATK + effect is applied. \n :white_small_square:[Buff]: Increase Crit DMG of Self by 30.7%. (Duration: 60s.) \n \n **Yaksha Wrath - cd 75s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 278.2% of ATK to Enemy x1. (Guaranteed critical) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 411.8% of ATK to Enemy x1. (Guaranteed critical) \n :white_small_square:[Debuff]: Decrease ATK SPD of Enemy x1 by 23. (Duration: 60s.) \n :white_small_square:[Additional Damage]: Deal fixed damage of 2215 to Enemy x1.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.teze') {
+    	msg.reply('my gun says: \n **Teze** \n \n **Leader Skill:** \n **Level 1** \n 	If there are at least x3 Dark Type allies, increase allies ATK by 35%. Increase Crit Rate of allies by 5%. \n \n **Level 2** \n If there are at least x3 Dark Type allies, increase allies ATK by 55%. Increase Crit Rate of allies by 10%.');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot 
