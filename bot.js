@@ -35,6 +35,25 @@ client.on('message', msg => {
   	}
 });
 
+//Riah
+client.on('message', msg => {
+    if (msg.content === 'gr.riah') {
+    	msg.reply('my gun says: \n **Riah** \n \n Grimoire: \n **Wind of Birth** \n [Buff]: Increase Ally x5 ATK by 9.7% when All Attack is triggered (Duration 40s). \n [Debuff]: Increase Hit Target DMG Taken by 16.1% when Regular Attack is triggered (Duration: 40s). \n [Passive Effect]: When HP is 50% or higher, increase Block Rate of Self by 6.5%');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.riah') {
+    	msg.reply('my gun says: \n **Riah** \n \n **Sacred Fleur - cd 55s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 336.7% of ATK to Enemy x1. \n :white_small_square:[Status Effect]: Inflict Bleed that deals damage equal to 11.5% of ATK every 5s for 30s. (Success Rate: 100%) (Bleed): Decrease Healing by 20%. \n Level 6: \n :white_small_square: Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks! \n \n **Asterisk Advent - cd 63s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal Damage equal to 352.3% of ATK to Enemy x1. (Guaranteed critical.) \n :white_small_square:[Additional Damage]: Deal additional damage equal to 211.4% of ATK to enemies affected by Bleed. Level 6: :white_small_square: Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.riah') {
+    	msg.reply('my gun says: \n **Riah** \n \n **Leader Skill:** \n **Level 1** \n For each type of Hero on your Team, increase allies ATK by 15%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+  	}
+});
+
 //SSR HEROES
 
 //Aglaea
@@ -585,6 +604,44 @@ client.on('message', msg => {
 client.on('message', msg => {
     if (msg.content === 'ld.ophelia') {
     	msg.reply('my gun says: \n **Ophelia** \n \n **Leader Skill:** \n **Level 1** \n Increase Block rate of Wind allies by 10%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+  	}
+});
+
+//Reiz
+client.on('message', msg => {
+    if (msg.content === 'gr.reiz') {
+    	msg.reply('my gun says: \n **Reiz** \n \n Grimoire: \n **Gauss Jammer** \n [Passive Effect]: Increase the ATK of allies in the same row by 12.9%.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.reiz') {
+    	msg.reply('my gun says: \n **Reiz** \n \n **Astral Fist - cd 55s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 243.6% of ATK to Enemy x1. \n :white_small_square:[Status Effect]: Inflict Chill that deals damage equal to 4.2% of ATK every 4s for 36s. \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 359.2% of ATK to Enemy x1. \n :white_small_square:[Status Effect]: Inflict Chill that deals damage equal to 4.7% of ATK every 4s for 36s. \n :white_small_square:[Debuff]: Increase DMG Taken of Enemy x1 by 30.7%. (Duration: 60s.) \n \n **Bolt of Victory - cd 70s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 222.3% of ATK to Enemy x1. (Guaranteed critical) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 328.2% of ATK to Enemy x1. (Guaranteed critical) \n :white_small_square:[Additional Damage]: Deal additional damage equal to 194.4% of ATK to enemies affected by chill. (Guaranteed critical) \n :white_small_square:[Status Effect]: Apply Freeze effect on enemies affected by Chill. (Duration: 18s.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.reiz') {
+    	msg.reply('my gun says: \n **Reiz** \n \n **Leader Skill:** \n **Level 1** \n If there are at least 3 Water allies, increase allies ATK by 35%. Increase Crit DMG of allies by 10%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+  	}
+});
+
+//Ren
+client.on('message', msg => {
+    if (msg.content === 'gr.ren') {
+    	msg.reply('my gun says: \n **Ren** \n \n Grimoire: \n **Wind Blade** \n [Passive Effect]: Deal additional damage equal to 18% of ATK to Water enemies.[Buff]: When hit, increase Self Crit Rate by 12.6%. (Duration: 40s.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.ren') {
+    	msg.reply('my gun says: \n **Ren** \n \n **Sakura Shrike: Blinding Firestorm - cd 82s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 288.6% of ATK to Enemy x1 (Deals damage to the enemy with the lowest HP) \n :white_small_square:[Status Effect]: Inflict Poison that deals damage equal to 14% of ATK every 6s for 30s. \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 404.1% of ATK to Enemy x1. \n :white_small_square:[Status Effect]: Inflict Poison that deals damage equal to 15.8% of ATK every 6s for 30s. \n :white_small_square:[Debuff]: Decrease ATK SPD of Enemy x1 by 21. (Duration: 60s.) \n \n **Sakura Shrike: Toxic Phoenix - cd 75s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 170.7% of ATK to Enemy x3. \n :white_small_square:[Status Effect]: Inflict Bleed that deals damage equal to 7% of ATK every 5s for 30s. (Success Rate: 30%) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 238.9% of ATK to Enemy x4. \n :white_small_square:[Status Effect]: Inflict Bleed on enemy x4 that deals damage equal to 7.9% of ATK every 5s for 30s. (Success Rate: 60%) \n :white_small_square:[Status Effect]: Inflict Bleed on enemy x1 that deals damage equal to 10.8% of ATK every 5s for 30s. (Apply effect on 1 enemy with the highest ATK) (Success Rate: 100%)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.ren') {
+    	msg.reply('my gun says: \n **Ren** \n \n **Leader Skill:** \n **Level 1** \n Increase Crit DMG of Physical-Type allies by 20% \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
   	}
 });
 
