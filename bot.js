@@ -588,6 +588,25 @@ client.on('message', msg => {
   	}
 });
 
+//Norn
+client.on('message', msg => {
+    if (msg.content === 'gr.norn') {
+    	msg.reply('my gun says: \n **Norn** \n \n Grimoire: \n **Neuron Wave** \n [Status Effect]: Inflict Silence on Hit Target when Active Skills are triggered (Success Rate: 30%. Duration: 20s) \n [Passive Effect]: Increase own ATK by 10.6%.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.norn') {
+    	msg.reply('my gun says: \n **Norn** \n \n **Justice Flash - cd 56s** \n Level 1: \n :white_small_square:[Regular Damage] Deal Damage equal to 209.5% of ATK to Enemy x4. \n Level 6: \n :white_small_square:[Regular Damage] Deal Damage equal to 293.3% of ATK to Enemy x4. \n \n **Dragon Flare - cd 95s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 171.1% of ATK to Enemy x4. \n :white_small_square:[Additional Damage]: Deal fixed damage of 70.6% of ATK to Dark-type enemies. \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 239.5% of ATK to Enemy x5. \n :white_small_square:[Additional Damage]: Deal fixed damage of 88.3% of ATK to Dark-type enemies.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.norn') {
+    	msg.reply('my gun says: \n **Norn** \n \n **Leader Skill:** \n **Level 1** \n Increase ATK of Magic-type allies by 20%. If there are at least 3 Light-type allies, decrease allies Taken DMG by 5%. \n \n **Level 2** \n Increase ATK of Magic-type allies by 40%. If there are at least 3 Light-type allies, decrease allies Taken DMG by 10%.');
+  	}
+});
+
 //Ophelia
 client.on('message', msg => {
     if (msg.content === 'gr.ophelia') {
