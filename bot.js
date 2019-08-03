@@ -550,5 +550,43 @@ client.on('message', msg => {
   	}
 });
 
+//Malpion
+client.on('message', msg => {
+    if (msg.content === 'gr.malpion') {
+    	msg.reply('my gun says: \n **Malpion** \n \n Grimoire: \n **Mad Dog Awakening** \n [Additional Damage]: Deal additional damage equal to 36.1% of ATK to enemies affected by Blind when Active Skills are triggered.[Passive Effect]: Increase Pierce Rate of Self by 6%.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.malpion') {
+    	msg.reply('my gun says: \n **Malpion** \n \n **Venomous Blade - cd 45s** \n Level 1: \n :white_small_square:[Regular Damage] Deal Damage equal to 258.4% of ATK to Enemy x1. \n :white_small_square:[Buff] Increase Crit Rate of Self by 27.9%. (Duration: 7s.) \n Level 6: \n :white_small_square:[Regular Damage] Deal Damage equal to 381.3% of ATK to Enemy x1. \n :white_small_square:[Buff] Increase Crit Rate of Self by 31.6%. (Duration: 7s.) \n :white_small_square:[Buff] Cast Blood Sucking on Self that heals 42.6% of damage. (Success Rate: 100%. Duration: 5s. Heal up to 50% of ATK.) \n \n **Critical Stance - cd 80s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage to 263.5% of ATK to Enemy x1. \n :white_small_square:[Status Effect]: Inflict Blind on Enemy x1. for 20s. (Success Rate: 50%) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage to 389.4% of ATK to Enemy x1. \n :white_small_square:[Additional Damage]: Deal additional damage equal to 186.6% of ATK to enemies with HP that is 50% or lower. \n :white_small_square:[Status Effect]: Inflict Blind on Enemy x1. for 20s. (Success Rate: 50%)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.malpion') {
+    	msg.reply('my gun says: \n **Malpion** \n \n **Leader Skill:** \n **Level 1** \n Increase Crit DMG of Dark allies by 30%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+  	}
+});
+
+//Ophelia
+client.on('message', msg => {
+    if (msg.content === 'gr.ophelia') {
+    	msg.reply('my gun says: \n **Ophelia** \n \n Grimoire: \n **Ground Upheaval** \n [Healing]: When hit, heal HP for 16.6% of ATK every 8s for 40s. (Success Rate: 50%.)[Passive Effect]: Increase Block Rate of Ally x1 by 2.3%.');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'sk.ophelia') {
+    	msg.reply('my gun says: \n **Ophelia** \n \n **Shield of Sverin - cd 90s** \n Level 1: \n :white_small_square:[Buff]: Transfer 50% of damage taken by Ally x3 to the caster. Decrease damage taken by the caster by 30%. (Duration 49s.) \n :white_small_square:[Buff]: Decrease DMG Taken of Self by 37.2%. (Duration: 60s.) \n :white_small_square:[Buff]: Increase Pierce Rate of Ally x2 with the highest ATK by 19.1%. (Duration: 40s.) \n Level 6: \n :white_small_square:[Buff]: Transfer 50% of damage taken by Ally x3 to the caster. Decrease damage taken by the caster by 30%. (Duration 63s.) \n :white_small_square:[Buff]: Decrease DMG Taken of Self by 42.1%. (Duration: 60s.) \n :white_small_square:[Buff]: Increase Pierce Rate of Ally x4 with the highest ATK by 21.6%. (Duration: 40s.) \n \n **Aegion Hammer - cd 60s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 252.6% of ATK to Enemy x1. \n :white_small_square:[Status Effect]: Inflict Stun on Enemy x1 for 18s. (Success Rate: 80%.) \n Level 6: \n :white_small_square:[Regular Damage]: Deal damage equal to 393.1% of ATK to Enemy x1. \n :white_small_square:[Status Effect]: Inflict Stun on Enemy x1 for 18s. \n :white_small_square:[Debuff]: Increase DMG Taken of Enemy x1 by 31.6% (Duration: 60s.)');
+  	}
+});
+
+client.on('message', msg => {
+    if (msg.content === 'ld.ophelia') {
+    	msg.reply('my gun says: \n **Ophelia** \n \n **Leader Skill:** \n **Level 1** \n Increase Block rate of Wind allies by 10%. \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot 
