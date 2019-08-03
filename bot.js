@@ -44,7 +44,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === 'sk.riah') {
-    	msg.reply('my gun says: \n **Riah** \n \n **Sacred Fleur - cd 55s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 336.7% of ATK to Enemy x1. \n :white_small_square:[Status Effect]: Inflict Bleed that deals damage equal to 11.5% of ATK every 5s for 30s. (Success Rate: 100%) (Bleed): Decrease Healing by 20%. \n Level 6: \n :white_small_square: Not enough data...need more gunpowder! Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks! \n \n **Asterisk Advent - cd 63s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal Damage equal to 352.3% of ATK to Enemy x1. (Guaranteed critical.) \n :white_small_square:[Additional Damage]: Deal additional damage equal to 211.4% of ATK to enemies affected by Bleed. Level 6: \n :white_small_square: Not enough data...need more gunpowder! Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
+    	msg.reply('my gun says: \n **Riah** \n \n **Sacred Fleur - cd 55s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal damage equal to 336.7% of ATK to Enemy x1. \n :white_small_square:[Status Effect]: Inflict Bleed that deals damage equal to 11.5% of ATK every 5s for 30s. (Success Rate: 100%) (Bleed): Decrease Healing by 20%. \n Level 6: \n :white_small_square: Not enough data...need more gunpowder! Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks! \n \n **Asterisk Advent - cd 63s** \n Level 1: \n :white_small_square:[Regular Damage]: Deal Damage equal to 352.3% of ATK to Enemy x1. (Guaranteed critical.) \n :white_small_square:[Additional Damage]: Deal additional damage equal to 211.4% of ATK to enemies affected by Bleed. \n Level 6: \n :white_small_square: Not enough data...need more gunpowder! Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
   	}
 });
 
@@ -644,6 +644,15 @@ client.on('message', msg => {
     	msg.reply('my gun says: \n **Ren** \n \n **Leader Skill:** \n **Level 1** \n Increase Crit DMG of Physical-Type allies by 20% \n \n **Level 2** \n Not enough data...need more gunpowder! \n Please DM @Silbeya 실베야#9810 if you have info on this to load gunpowder, thanks!');
   	}
 });
+
+//Renga
+
+
+//Rin
+
+
+//Rito
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot 
