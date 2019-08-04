@@ -8,12 +8,12 @@ client.on('ready', () => {
 });
 
 //COMMANDS
-//client.on('message', msg => {
-//    if (msg.content === '.test') {
-//   	  msg.reply('test good');
-//    } 
-     
-//});
+client.on('message', msg => {
+    if (msg.content === '.test') {
+   	    msg.reply({embed: {
+  color: 3447003,
+  description: "A very simple Embed!"
+}});
 
 
 
