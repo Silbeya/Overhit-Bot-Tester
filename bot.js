@@ -14,6 +14,9 @@ client.on('message', msg => {
         }
 });
 
+client.on('message', msg => {
+    if (msg.content === '.hi') {
+        
 const embed = new Discord.RichEmbed()
   .setTitle("This is your title, it can hold 256 characters")
   .setAuthor("Author Name", "https://i.imgur.com/lm8s41J.png")
