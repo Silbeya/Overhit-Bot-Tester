@@ -13,7 +13,9 @@ client.on('message', msg => {
    	    msg.reply({embed: {
   color: 3447003,
   description: "A very simple Embed!"
-}});
+}}
+}
+});
 
 
 
