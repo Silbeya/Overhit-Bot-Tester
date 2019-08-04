@@ -1,5 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const args = message.content.slice(prefix.length).trim().split(/ +/g);
+const command = args.shift().toLowerCase();
 
 client.on('ready', () => {
 
@@ -20,8 +22,9 @@ client.on("message", msg => {
   // Exit and stop if the prefix is not there or if user is a bot
   if (!msg.content.startsWith(prefix) || msg.author.bot) return;
  
-  if (msg.content.startsWith(prefix + "ping")) {
-      msg.reply('pong!');
+  if(command === 'ping') {
+  msg.reply('Pong!');
+      
   } else
   if (msg.content.startsWith(prefix + "foo")) {
       msg.channel.send("bar!");
