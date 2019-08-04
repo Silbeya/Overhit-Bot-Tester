@@ -26,24 +26,7 @@ const embed = new Discord.RichEmbed()
   .setColor(0xd213de)
   .setDescription("This is the main body of text, it can hold 2048 characters.")
   .setFooter("This is the footer text, it can hold 2048 characters", "http://i.imgur.com/w1vhFSR.png")
-  .setImage("http://i.imgur.com/yVpymuV.png")
-  .setThumbnail("http://i.imgur.com/p2qNFag.png")
-  /*
-   * Takes a Date object, defaults to current date.
-   */
-  .setTimestamp()
-  .setURL("https://discord.js.org/#/docs/main/indev/class/RichEmbed")
-  .addField("This is a field title, it can hold 256 characters",
-    "This is a field value, it can hold 1024 characters.")
-  /*
-   * Inline fields may not display as inline if the thumbnail and/or image is too big.
-   */
-  .addField("Inline Field", "They can also be inline.", true)
-  /*
-   * Blank field, useful to create some space.
-   */
-  .addBlankField(true)
-  .addField("Inline Field 3", "You can have a maximum of 25 fields.", true);
+  .setThumbnail("http://i.imgur.com/p2qNFag.png");
  
   msg.reply('this:');
   msg.channel.send({embed});
