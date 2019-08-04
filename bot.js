@@ -15,15 +15,7 @@ client.on('message', msg => {
 });
 
 //List of Heroes
-client.on('message', msg => {
-    if (msg.content === 'test') {  
-    embed: {
-    color: 3447003,
-    	msg.reply('hi');
-  	}
-    }    
-    }
-});
+
 
 //UR HEROES
 
